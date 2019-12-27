@@ -1,0 +1,71 @@
+
+State Machine - |Ethernet_10g|Eth_10g_top:Eth_10g_top_inst|Eth_10g_mac:Eth_10g_mac_inst|Eth_10gmac:Eth_10gmac_inst|Eth_10gmac_0002:eth_10gmac_inst|altera_eth_lane_decoder:rx_eth_lane_decoder|empty
+Name empty.111 empty.110 empty.101 empty.100 empty.011 empty.010 empty.001 empty.000 
+empty.000 0 0 0 0 0 0 0 0 
+empty.001 0 0 0 0 0 0 1 1 
+empty.010 0 0 0 0 0 1 0 1 
+empty.011 0 0 0 0 1 0 0 1 
+empty.100 0 0 0 1 0 0 0 1 
+empty.101 0 0 1 0 0 0 0 1 
+empty.110 0 1 0 0 0 0 0 1 
+empty.111 1 0 0 0 0 0 0 1 
+
+State Machine - |Ethernet_10g|Eth_10g_top:Eth_10g_top_inst|Eth_10g_mac:Eth_10g_mac_inst|Eth_10gmac:Eth_10gmac_inst|Eth_10gmac_0002:eth_10gmac_inst|altera_eth_xgmii_termination:tx_eth_xgmii_termination|dic_value_reg
+Name dic_value_reg.11 dic_value_reg.10 dic_value_reg.01 dic_value_reg.00 
+dic_value_reg.00 0 0 0 0 
+dic_value_reg.01 0 0 1 1 
+dic_value_reg.10 0 1 0 1 
+dic_value_reg.11 1 0 0 1 
+
+State Machine - |Ethernet_10g|Eth_10g_top:Eth_10g_top_inst|Eth_10g_mac:Eth_10g_mac_inst|Eth_10gmac:Eth_10gmac_inst|Eth_10gmac_0002:eth_10gmac_inst|altera_eth_xgmii_termination:tx_eth_xgmii_termination|remainder_reg2
+Name remainder_reg2.0100 
+remainder_reg2.1000 0 
+remainder_reg2.0100 1 
+
+State Machine - |Ethernet_10g|Eth_10g_top:Eth_10g_top_inst|Eth_10g_mac:Eth_10g_mac_inst|Eth_10gmac:Eth_10gmac_inst|Eth_10gmac_0002:eth_10gmac_inst|altera_eth_xgmii_termination:tx_eth_xgmii_termination|remainder_reg
+Name remainder_reg.0100 
+remainder_reg.1000 0 
+remainder_reg.0100 1 
+
+State Machine - |Ethernet_10g|Eth_10g_top:Eth_10g_top_inst|Eth_10g_mac:Eth_10g_mac_inst|Eth_10gmac:Eth_10gmac_inst|Eth_10gmac_0002:eth_10gmac_inst|altera_eth_pause_ctrl_gen:tx_eth_pause_ctrl_gen|altera_eth_pause_controller:P_CTRL|state
+Name state.IDLE state.GENERATE_XOFF state.GENERATE_XON 
+state.IDLE 0 0 0 
+state.GENERATE_XON 1 0 1 
+state.GENERATE_XOFF 1 1 0 
+
+State Machine - |Ethernet_10g|Eth_10g_top:Eth_10g_top_inst|Eth_10g_mac:Eth_10g_mac_inst|Eth_10gmac:Eth_10gmac_inst|Eth_10gmac_0002:eth_10gmac_inst|altera_eth_pad_inserter:tx_eth_pad_inserter|state
+Name state.BYPASS state.INSERT_LAST_BEAT state.INSERT_BEAT 
+state.BYPASS 0 0 0 
+state.INSERT_BEAT 1 0 1 
+state.INSERT_LAST_BEAT 1 1 0 
+
+State Machine - |Ethernet_10g|Eth_10g_top:Eth_10g_top_inst|Eth_10g_mac:Eth_10g_mac_inst|Eth_10gmac:Eth_10gmac_inst|Eth_10gmac_0002:eth_10gmac_inst|altera_eth_packet_underflow_control:tx_eth_packet_underflow_control|present_state
+Name present_state.IDLE present_state.UNRF present_state.DATA 
+present_state.IDLE 0 0 0 
+present_state.DATA 1 0 1 
+present_state.UNRF 1 1 0 
+
+State Machine - |Ethernet_10g|Eth_10g_top:Eth_10g_top_inst|Eth_top:Eth_top_inst|Eth_10g_send_to_10gmac:Eth_10g_send_to_10gmac_inst|udp_send_to_10gmac:udp_send_to_10gmac_inst|tx_state
+Name tx_state.send_data tx_state.send_head tx_state.ready tx_state.idle 
+tx_state.idle 0 0 0 0 
+tx_state.ready 0 0 1 1 
+tx_state.send_head 0 1 0 1 
+tx_state.send_data 1 0 0 1 
+
+State Machine - |Ethernet_10g|Eth_10g_top:Eth_10g_top_inst|Eth_top:Eth_top_inst|Eth_10g_receive_from_10gmac:Eth_10g_receive_from_10gmac_inst|state
+Name state.rx_wait state.rx_data state.rx_arp state.rx_arp_ans state.rx_arp_req state.rx_udp state.rx_mac state.idle 
+state.idle 0 0 0 0 0 0 0 0 
+state.rx_mac 0 0 0 0 0 0 1 1 
+state.rx_udp 0 0 0 0 0 1 0 1 
+state.rx_arp_req 0 0 0 0 1 0 0 1 
+state.rx_arp_ans 0 0 0 1 0 0 0 1 
+state.rx_arp 0 0 1 0 0 0 0 1 
+state.rx_data 0 1 0 0 0 0 0 1 
+state.rx_wait 1 0 0 0 0 0 0 1 
+
+State Machine - |Ethernet_10g|SPI_LMK04906_Config:SPI_LMK04906_Config_inst|mSetup_ST
+Name mSetup_ST.0011 mSetup_ST.0010 mSetup_ST.0001 mSetup_ST.0000 
+mSetup_ST.0000 0 0 0 0 
+mSetup_ST.0001 0 0 1 1 
+mSetup_ST.0010 0 1 0 1 
+mSetup_ST.0011 1 0 0 1 

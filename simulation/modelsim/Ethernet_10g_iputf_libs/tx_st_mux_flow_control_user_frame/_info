@@ -1,0 +1,58 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/DELL/Desktop/Ethernet/Ethernet_10g/simulation/modelsim
+vmultiplexer_0001
+Z1 DXx6 sv_std 3 std 0 22 AD7iAPLo6nTIKk<N0eo=D3
+Z2 !s110 1525137695
+!i10b 1
+!s100 gWHVS3=SGM0@Jd>n?1iKW2
+IK12^]n?kkIUEojdVFFS]:0
+Z3 VDg1SIo80bB@j0V0VzS_@n1
+Z4 !s105 multiplexer_0001_sv_unit
+S1
+R0
+Z5 w1525073313
+Z6 8C:/Users/DELL/Desktop/Ethernet/Ethernet_10g/ipcore/Eth_10gmac/Eth_10gmac_sim/multiplexer/multiplexer_0001.sv
+Z7 FC:/Users/DELL/Desktop/Ethernet/Ethernet_10g/ipcore/Eth_10gmac/Eth_10gmac_sim/multiplexer/multiplexer_0001.sv
+L0 64
+Z8 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z9 !s108 1525137695.000000
+Z10 !s107 C:/Users/DELL/Desktop/Ethernet/Ethernet_10g/ipcore/Eth_10gmac/Eth_10gmac_sim/multiplexer/multiplexer_0001.sv|
+Z11 !s90 -reportprogress|300|-sv|C:/Users/DELL/Desktop/Ethernet/Ethernet_10g/ipcore/Eth_10gmac/Eth_10gmac_sim/multiplexer/multiplexer_0001.sv|-work|tx_st_mux_flow_control_user_frame|
+!i113 1
+Z12 o-sv -work tx_st_mux_flow_control_user_frame
+Z13 tCvgOpt 0
+vmultiplexer_0001_1stage_pipeline
+R1
+R2
+!i10b 1
+!s100 DKAJ_lb8K]==ndL9fd_Oo3
+IWf<kIA;>iQLA2SIXXm`fC1
+R3
+R4
+S1
+R0
+R5
+R6
+R7
+L0 234
+R8
+r1
+!s85 0
+31
+R9
+R10
+R11
+!i113 1
+R12
+R13

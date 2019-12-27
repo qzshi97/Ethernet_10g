@@ -1,0 +1,33 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/DELL/Desktop/Ethernet/Ethernet_10g/simulation/modelsim
+vau9aI6G3jLbJeonwuPwN4cudgHwD5jKr9OSccCP9H1c=
+!s110 1525137686
+!i10b 0
+!s100 5:QnnjifLWZH;gghT_lDC1
+IBee[=]9Sa7NTzi1VHdOKT2
+VDg1SIo80bB@j0V0VzS_@n1
+!i8a 298213824
+R0
+w1525137686
+8C:/Users/DELL/Desktop/Ethernet/Ethernet_10g/ipcore/Eth_10gmac/Eth_10gmac_sim/altera_eth_lane_decoder/mentor/altera_eth_lane_decoder.v
+FC:/Users/DELL/Desktop/Ethernet/Ethernet_10g/ipcore/Eth_10gmac/Eth_10gmac_sim/altera_eth_lane_decoder/mentor/altera_eth_lane_decoder.v
+L0 38
+OV;L;10.5b;63
+r1
+!s85 0
+31
+!s108 1525137686.000000
+!s107 C:/Users/DELL/Desktop/Ethernet/Ethernet_10g/ipcore/Eth_10gmac/Eth_10gmac_sim/altera_eth_lane_decoder/mentor/altera_eth_lane_decoder.v|
+!s90 -reportprogress|300|C:/Users/DELL/Desktop/Ethernet/Ethernet_10g/ipcore/Eth_10gmac/Eth_10gmac_sim/altera_eth_lane_decoder/mentor/altera_eth_lane_decoder.v|-work|rx_eth_lane_decoder|
+!i113 1
+o-work rx_eth_lane_decoder
+tCvgOpt 0
+n483e1b2

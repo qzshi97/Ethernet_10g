@@ -1,0 +1,78 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/DELL/Desktop/Ethernet/Ethernet_10g/simulation/modelsim
+vNIr4Bw2fbn5CAQn6ubISKslO0aC0CKGswF3NY7481I0=
+!s110 1525137685
+!i10b 0
+!s100 32Q@A70Y>ch]@7JASbl@<0
+IK7F:D3azEA`z;D:zG_0VH2
+Z1 VDg1SIo80bB@j0V0VzS_@n1
+!i8a 640574512
+R0
+w1525137685
+8C:/Users/DELL/Desktop/Ethernet/Ethernet_10g/ipcore/Eth_10gmac/Eth_10gmac_sim/altera_eth_frame_decoder/mentor/altera_eth_frame_decoder.v
+FC:/Users/DELL/Desktop/Ethernet/Ethernet_10g/ipcore/Eth_10gmac/Eth_10gmac_sim/altera_eth_frame_decoder/mentor/altera_eth_frame_decoder.v
+L0 38
+Z2 OV;L;10.5b;63
+r1
+!s85 0
+31
+!s108 1525137685.000000
+!s107 C:/Users/DELL/Desktop/Ethernet/Ethernet_10g/ipcore/Eth_10gmac/Eth_10gmac_sim/altera_eth_frame_decoder/mentor/altera_eth_frame_decoder.v|
+!s90 -reportprogress|300|C:/Users/DELL/Desktop/Ethernet/Ethernet_10g/ipcore/Eth_10gmac/Eth_10gmac_sim/altera_eth_frame_decoder/mentor/altera_eth_frame_decoder.v|-work|rx_eth_frame_decoder|
+!i113 1
+Z3 o-work rx_eth_frame_decoder
+Z4 tCvgOpt 0
+n6e16342
+valtera_eth_frame_decoder_pipeline_base
+Z5 !s110 1525137686
+!i10b 1
+!s100 SJ7<nQFmhGOG=zfB7?Bga1
+IiTfe09MbLOIg<H98972o^2
+R1
+R0
+Z6 w1525073313
+8C:/Users/DELL/Desktop/Ethernet/Ethernet_10g/ipcore/Eth_10gmac/Eth_10gmac_sim/altera_eth_frame_decoder/altera_eth_frame_decoder_pipeline_base.v
+FC:/Users/DELL/Desktop/Ethernet/Ethernet_10g/ipcore/Eth_10gmac/Eth_10gmac_sim/altera_eth_frame_decoder/altera_eth_frame_decoder_pipeline_base.v
+Z7 L0 22
+R2
+r1
+!s85 0
+31
+Z8 !s108 1525137686.000000
+!s107 C:/Users/DELL/Desktop/Ethernet/Ethernet_10g/ipcore/Eth_10gmac/Eth_10gmac_sim/altera_eth_frame_decoder/altera_eth_frame_decoder_pipeline_base.v|
+!s90 -reportprogress|300|C:/Users/DELL/Desktop/Ethernet/Ethernet_10g/ipcore/Eth_10gmac/Eth_10gmac_sim/altera_eth_frame_decoder/altera_eth_frame_decoder_pipeline_base.v|-work|rx_eth_frame_decoder|
+!i113 1
+R3
+R4
+valtera_eth_frame_decoder_pipeline_stage
+DXx6 sv_std 3 std 0 22 AD7iAPLo6nTIKk<N0eo=D3
+R5
+!i10b 1
+!s100 E7iS60LN76^R;AJcl^:Ok1
+I>KIQKzDG:GaS3Of85^70=3
+R1
+!s105 altera_eth_frame_decoder_pipeline_stage_sv_unit
+S1
+R0
+R6
+8C:/Users/DELL/Desktop/Ethernet/Ethernet_10g/ipcore/Eth_10gmac/Eth_10gmac_sim/altera_eth_frame_decoder/altera_eth_frame_decoder_pipeline_stage.sv
+FC:/Users/DELL/Desktop/Ethernet/Ethernet_10g/ipcore/Eth_10gmac/Eth_10gmac_sim/altera_eth_frame_decoder/altera_eth_frame_decoder_pipeline_stage.sv
+R7
+R2
+r1
+!s85 0
+31
+R8
+!s107 C:/Users/DELL/Desktop/Ethernet/Ethernet_10g/ipcore/Eth_10gmac/Eth_10gmac_sim/altera_eth_frame_decoder/altera_eth_frame_decoder_pipeline_stage.sv|
+!s90 -reportprogress|300|-sv|C:/Users/DELL/Desktop/Ethernet/Ethernet_10g/ipcore/Eth_10gmac/Eth_10gmac_sim/altera_eth_frame_decoder/altera_eth_frame_decoder_pipeline_stage.sv|-work|rx_eth_frame_decoder|
+!i113 1
+o-sv -work rx_eth_frame_decoder
+R4

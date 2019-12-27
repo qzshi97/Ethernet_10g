@@ -1,0 +1,121 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/DELL/Desktop/Ethernet/Ethernet_10g/simulation/modelsim
+vEth_10gmac
+Z1 !s110 1525137701
+!i10b 1
+!s100 mYVYJW5aNo:ZlLGHBmi912
+IQE:GIA<P4e6AHGXh@T3OD0
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1525073313
+8C:/Users/DELL/Desktop/Ethernet/Ethernet_10g/ipcore/Eth_10gmac/Eth_10gmac_sim/Eth_10gmac.v
+FC:/Users/DELL/Desktop/Ethernet/Ethernet_10g/ipcore/Eth_10gmac/Eth_10gmac_sim/Eth_10gmac.v
+L0 9
+Z3 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z4 !s108 1525137701.000000
+!s107 C:/Users/DELL/Desktop/Ethernet/Ethernet_10g/ipcore/Eth_10gmac/Eth_10gmac_sim/Eth_10gmac.v|
+!s90 -reportprogress|300|C:/Users/DELL/Desktop/Ethernet/Ethernet_10g/ipcore/Eth_10gmac/Eth_10gmac_sim/Eth_10gmac.v|
+!i113 1
+Z5 tCvgOpt 0
+n@eth_10gmac
+vEthernet_10g
+R1
+!i10b 1
+!s100 f>iD[ZGdlGSD_5HkHWOI32
+Iz[>Qlg1ib2=8gVFP;2Teb0
+R2
+R0
+w1525137115
+8C:/Users/DELL/Desktop/Ethernet/Ethernet_10g/Ethernet_10g.v
+FC:/Users/DELL/Desktop/Ethernet/Ethernet_10g/Ethernet_10g.v
+L0 1
+R3
+r1
+!s85 0
+31
+R4
+!s107 C:/Users/DELL/Desktop/Ethernet/Ethernet_10g/Ethernet_10g.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/DELL/Desktop/Ethernet/Ethernet_10g|C:/Users/DELL/Desktop/Ethernet/Ethernet_10g/Ethernet_10g.v|
+!i113 1
+Z6 o-vlog01compat -work work
+!s92 -vlog01compat -work work +incdir+C:/Users/DELL/Desktop/Ethernet/Ethernet_10g
+R5
+n@ethernet_10g
+vEthernet_10g_vlg_tst
+Z7 !s110 1525137702
+!i10b 1
+!s100 7]Vz4JeiVae6;02azS`3@1
+IPUP>I@<:zGS<z<?VMk;E91
+R2
+R0
+w1525137631
+8C:/Users/DELL/Desktop/Ethernet/Ethernet_10g/simulation/modelsim/Ethernet_10g.vt
+FC:/Users/DELL/Desktop/Ethernet/Ethernet_10g/simulation/modelsim/Ethernet_10g.vt
+L0 28
+R3
+r1
+!s85 0
+31
+Z8 !s108 1525137702.000000
+!s107 C:/Users/DELL/Desktop/Ethernet/Ethernet_10g/simulation/modelsim/Ethernet_10g.vt|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/DELL/Desktop/Ethernet/Ethernet_10g/simulation/modelsim|C:/Users/DELL/Desktop/Ethernet/Ethernet_10g/simulation/modelsim/Ethernet_10g.vt|
+!i113 1
+R6
+!s92 -vlog01compat -work work +incdir+C:/Users/DELL/Desktop/Ethernet/Ethernet_10g/simulation/modelsim
+R5
+n@ethernet_10g_vlg_tst
+vtx_fifo
+R7
+!i10b 1
+!s100 JURYHNKX2WWMdnHS[];OQ2
+I>IgA_o9MT:Y9>JkB^0URN2
+R2
+R0
+w1525094867
+8C:/Users/DELL/Desktop/Ethernet/Ethernet_10g/ipcore/tx_fifo/tx_fifo.v
+FC:/Users/DELL/Desktop/Ethernet/Ethernet_10g/ipcore/tx_fifo/tx_fifo.v
+L0 39
+R3
+r1
+!s85 0
+31
+R8
+!s107 C:/Users/DELL/Desktop/Ethernet/Ethernet_10g/ipcore/tx_fifo/tx_fifo.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/DELL/Desktop/Ethernet/Ethernet_10g/ipcore/tx_fifo|C:/Users/DELL/Desktop/Ethernet/Ethernet_10g/ipcore/tx_fifo/tx_fifo.v|
+!i113 1
+R6
+!s92 -vlog01compat -work work +incdir+C:/Users/DELL/Desktop/Ethernet/Ethernet_10g/ipcore/tx_fifo
+R5
+vudp_send_to_10gmac
+R7
+!i10b 1
+!s100 zilhn3d:3fQ6]zX3O4VCn2
+I>BPlKoGG870IXbSWGmA]V0
+R2
+R0
+w1525136238
+8C:/Users/DELL/Desktop/Ethernet/Ethernet_10g/rtl/udp_send_to_10gmac.v
+FC:/Users/DELL/Desktop/Ethernet/Ethernet_10g/rtl/udp_send_to_10gmac.v
+L0 13
+R3
+r1
+!s85 0
+31
+R8
+!s107 C:/Users/DELL/Desktop/Ethernet/Ethernet_10g/rtl/udp_send_to_10gmac.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/DELL/Desktop/Ethernet/Ethernet_10g/rtl|C:/Users/DELL/Desktop/Ethernet/Ethernet_10g/rtl/udp_send_to_10gmac.v|
+!i113 1
+R6
+!s92 -vlog01compat -work work +incdir+C:/Users/DELL/Desktop/Ethernet/Ethernet_10g/rtl
+R5

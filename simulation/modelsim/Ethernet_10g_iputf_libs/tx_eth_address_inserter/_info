@@ -1,0 +1,33 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/DELL/Desktop/Ethernet/Ethernet_10g/simulation/modelsim
+vWZDn6FoIROqcaGUp3kejr76/J5+IKzxiL9J7y1ysS54=
+!s110 1525137695
+!i10b 0
+!s100 _6]5PDnDALzQHb;k<e_6?1
+I>Xh`UCF4Ab7:H>7o[n8@i3
+VDg1SIo80bB@j0V0VzS_@n1
+!i8a 102888976
+R0
+w1525137695
+8C:/Users/DELL/Desktop/Ethernet/Ethernet_10g/ipcore/Eth_10gmac/Eth_10gmac_sim/altera_eth_address_inserter/mentor/altera_eth_address_inserter.v
+FC:/Users/DELL/Desktop/Ethernet/Ethernet_10g/ipcore/Eth_10gmac/Eth_10gmac_sim/altera_eth_address_inserter/mentor/altera_eth_address_inserter.v
+L0 38
+OV;L;10.5b;63
+r1
+!s85 0
+31
+!s108 1525137695.000000
+!s107 C:/Users/DELL/Desktop/Ethernet/Ethernet_10g/ipcore/Eth_10gmac/Eth_10gmac_sim/altera_eth_address_inserter/mentor/altera_eth_address_inserter.v|
+!s90 -reportprogress|300|C:/Users/DELL/Desktop/Ethernet/Ethernet_10g/ipcore/Eth_10gmac/Eth_10gmac_sim/altera_eth_address_inserter/mentor/altera_eth_address_inserter.v|-work|tx_eth_address_inserter|
+!i113 1
+o-work tx_eth_address_inserter
+tCvgOpt 0
+nd7b6802

@@ -1,0 +1,421 @@
+------------------------------------------------------------
+TimeQuest Timing Analyzer Summary
+------------------------------------------------------------
+
+Type  : Slow 900mV 85C Model Setup 'SPI_LMK04906_Config:SPI_LMK04906_Config_inst|clk_cnt[1]'
+Slack : -1.932
+TNS   : -120.605
+
+Type  : Slow 900mV 85C Model Setup 'OSC_50_B3B'
+Slack : -1.872
+TNS   : -1.872
+
+Type  : Slow 900mV 85C Model Setup 'pll_ref_clk_sig'
+Slack : 1.521
+TNS   : 0.000
+
+Type  : Slow 900mV 85C Model Setup 'Eth_10g_top_inst|Eth_10g_mac_inst|Eth_10gbaser_phy_inst|eth_10gbaser_phy_inst|xv_xcvr_10gbaser_nr_inst|ch[0].sv_xcvr_10gbaser_native_inst|g_fpll.altera_pll_156M~PLL_OUTPUT_COUNTER|divclk'
+Slack : 1.996
+TNS   : 0.000
+
+Type  : Slow 900mV 85C Model Setup 'pll_inst|pll_inst|altera_pll_i|general[0].gpll~PLL_OUTPUT_COUNTER|divclk'
+Slack : 8.343
+TNS   : 0.000
+
+Type  : Slow 900mV 85C Model Setup 'n/a'
+Slack : 12.723
+TNS   : 0.000
+
+Type  : Slow 900mV 85C Model Hold 'Eth_10g_top_inst|Eth_10g_mac_inst|Eth_10gbaser_phy_inst|eth_10gbaser_phy_inst|xv_xcvr_10gbaser_nr_inst|ch[0].sv_xcvr_10gbaser_native_inst|g_fpll.altera_pll_156M~PLL_OUTPUT_COUNTER|divclk'
+Slack : 0.125
+TNS   : 0.000
+
+Type  : Slow 900mV 85C Model Hold 'pll_inst|pll_inst|altera_pll_i|general[0].gpll~PLL_OUTPUT_COUNTER|divclk'
+Slack : 0.149
+TNS   : 0.000
+
+Type  : Slow 900mV 85C Model Hold 'SPI_LMK04906_Config:SPI_LMK04906_Config_inst|clk_cnt[1]'
+Slack : 0.195
+TNS   : 0.000
+
+Type  : Slow 900mV 85C Model Hold 'OSC_50_B3B'
+Slack : 0.889
+TNS   : 0.000
+
+Type  : Slow 900mV 85C Model Hold 'pll_ref_clk_sig'
+Slack : 1.250
+TNS   : 0.000
+
+Type  : Slow 900mV 85C Model Hold 'n/a'
+Slack : 16.157
+TNS   : 0.000
+
+Type  : Slow 900mV 85C Model Recovery 'Eth_10g_top_inst|Eth_10g_mac_inst|Eth_10gbaser_phy_inst|eth_10gbaser_phy_inst|xv_xcvr_10gbaser_nr_inst|ch[0].sv_xcvr_10gbaser_native_inst|g_fpll.altera_pll_156M~PLL_OUTPUT_COUNTER|divclk'
+Slack : 3.641
+TNS   : 0.000
+
+Type  : Slow 900mV 85C Model Removal 'Eth_10g_top_inst|Eth_10g_mac_inst|Eth_10gbaser_phy_inst|eth_10gbaser_phy_inst|xv_xcvr_10gbaser_nr_inst|ch[0].sv_xcvr_10gbaser_native_inst|g_fpll.altera_pll_156M~PLL_OUTPUT_COUNTER|divclk'
+Slack : 0.346
+TNS   : 0.000
+
+Type  : Slow 900mV 85C Model Minimum Pulse Width 'SPI_LMK04906_Config:SPI_LMK04906_Config_inst|clk_cnt[1]'
+Slack : -0.394
+TNS   : -42.735
+
+Type  : Slow 900mV 85C Model Minimum Pulse Width 'Eth_10g_top_inst|Eth_10g_mac_inst|Eth_10gbaser_phy_inst|eth_10gbaser_phy_inst|xv_xcvr_10gbaser_nr_inst|ch[0].sv_xcvr_10gbaser_native_inst|altera_pll_5G|pll[0].pll.cmu_pll.tx_pll|clkcdr'
+Slack : 0.096
+TNS   : 0.000
+
+Type  : Slow 900mV 85C Model Minimum Pulse Width 'Eth_10g_top_inst|Eth_10g_mac_inst|Eth_10gbaser_phy_inst|eth_10gbaser_phy_inst|xv_xcvr_10gbaser_nr_inst|ch[0].sv_xcvr_10gbaser_native_inst|native_inst|inst_sv_pma|rx_pma.sv_rx_pma_inst|rx_pmas[0].rx_pma.rx_cdr|clk90bdes'
+Slack : 0.096
+TNS   : 0.000
+
+Type  : Slow 900mV 85C Model Minimum Pulse Width 'pll_ref_clk_sig'
+Slack : 0.301
+TNS   : 0.000
+
+Type  : Slow 900mV 85C Model Minimum Pulse Width 'Eth_10g_top_inst|Eth_10g_mac_inst|Eth_10gbaser_phy_inst|eth_10gbaser_phy_inst|xv_xcvr_10gbaser_nr_inst|ch[0].sv_xcvr_10gbaser_native_inst|altera_pll_5G|pll[0].pll.cmu_pll.pll_mux.pll_refclk_select_mux|clkout'
+Slack : 0.775
+TNS   : 0.000
+
+Type  : Slow 900mV 85C Model Minimum Pulse Width 'Eth_10g_top_inst|Eth_10g_mac_inst|Eth_10gbaser_phy_inst|eth_10gbaser_phy_inst|xv_xcvr_10gbaser_nr_inst|ch[0].sv_xcvr_10gbaser_native_inst|g_fpll.altera_pll_156M~FRACTIONAL_PLL|vcoph[0]'
+Slack : 1.599
+TNS   : 0.000
+
+Type  : Slow 900mV 85C Model Minimum Pulse Width 'pll_inst|pll_inst|altera_pll_i|general[0].gpll~FRACTIONAL_PLL|vcoph[0]'
+Slack : 1.666
+TNS   : 0.000
+
+Type  : Slow 900mV 85C Model Minimum Pulse Width 'Eth_10g_top_inst|Eth_10g_mac_inst|Eth_10gbaser_phy_inst|eth_10gbaser_phy_inst|xv_xcvr_10gbaser_nr_inst|ch[0].sv_xcvr_10gbaser_native_inst|native_inst|inst_sv_pma|rx_pma.sv_rx_pma_inst|rx_pmas[0].rx_pma.rx_pma_deser|clk90b'
+Slack : 1.801
+TNS   : 0.000
+
+Type  : Slow 900mV 85C Model Minimum Pulse Width 'Eth_10g_top_inst|Eth_10g_mac_inst|Eth_10gbaser_phy_inst|eth_10gbaser_phy_inst|xv_xcvr_10gbaser_nr_inst|ch[0].sv_xcvr_10gbaser_native_inst|native_inst|inst_sv_pma|tx_pma.sv_tx_pma_inst|tx_pma_insts[0].sv_tx_pma_ch_inst|tx_pma_ch.tx_cgb|pclk[1]'
+Slack : 1.935
+TNS   : 0.000
+
+Type  : Slow 900mV 85C Model Minimum Pulse Width 'Eth_10g_top_inst|Eth_10g_mac_inst|Eth_10gbaser_phy_inst|eth_10gbaser_phy_inst|xv_xcvr_10gbaser_nr_inst|ch[0].sv_xcvr_10gbaser_native_inst|g_fpll.altera_pll_156M~PLL_OUTPUT_COUNTER|divclk'
+Slack : 2.322
+TNS   : 0.000
+
+Type  : Slow 900mV 85C Model Minimum Pulse Width 'pll_inst|pll_inst|altera_pll_i|general[0].gpll~PLL_OUTPUT_COUNTER|divclk'
+Slack : 4.409
+TNS   : 0.000
+
+Type  : Slow 900mV 85C Model Minimum Pulse Width 'OSC_50_B3B'
+Slack : 9.400
+TNS   : 0.000
+
+Type  : Slow 900mV 0C Model Setup 'SPI_LMK04906_Config:SPI_LMK04906_Config_inst|clk_cnt[1]'
+Slack : -1.814
+TNS   : -112.607
+
+Type  : Slow 900mV 0C Model Setup 'OSC_50_B3B'
+Slack : -1.452
+TNS   : -1.452
+
+Type  : Slow 900mV 0C Model Setup 'pll_ref_clk_sig'
+Slack : 1.521
+TNS   : 0.000
+
+Type  : Slow 900mV 0C Model Setup 'Eth_10g_top_inst|Eth_10g_mac_inst|Eth_10gbaser_phy_inst|eth_10gbaser_phy_inst|xv_xcvr_10gbaser_nr_inst|ch[0].sv_xcvr_10gbaser_native_inst|g_fpll.altera_pll_156M~PLL_OUTPUT_COUNTER|divclk'
+Slack : 2.075
+TNS   : 0.000
+
+Type  : Slow 900mV 0C Model Setup 'pll_inst|pll_inst|altera_pll_i|general[0].gpll~PLL_OUTPUT_COUNTER|divclk'
+Slack : 8.492
+TNS   : 0.000
+
+Type  : Slow 900mV 0C Model Setup 'n/a'
+Slack : 12.771
+TNS   : 0.000
+
+Type  : Slow 900mV 0C Model Hold 'Eth_10g_top_inst|Eth_10g_mac_inst|Eth_10gbaser_phy_inst|eth_10gbaser_phy_inst|xv_xcvr_10gbaser_nr_inst|ch[0].sv_xcvr_10gbaser_native_inst|g_fpll.altera_pll_156M~PLL_OUTPUT_COUNTER|divclk'
+Slack : 0.171
+TNS   : 0.000
+
+Type  : Slow 900mV 0C Model Hold 'SPI_LMK04906_Config:SPI_LMK04906_Config_inst|clk_cnt[1]'
+Slack : 0.189
+TNS   : 0.000
+
+Type  : Slow 900mV 0C Model Hold 'pll_inst|pll_inst|altera_pll_i|general[0].gpll~PLL_OUTPUT_COUNTER|divclk'
+Slack : 0.216
+TNS   : 0.000
+
+Type  : Slow 900mV 0C Model Hold 'OSC_50_B3B'
+Slack : 0.633
+TNS   : 0.000
+
+Type  : Slow 900mV 0C Model Hold 'pll_ref_clk_sig'
+Slack : 1.250
+TNS   : 0.000
+
+Type  : Slow 900mV 0C Model Hold 'n/a'
+Slack : 16.205
+TNS   : 0.000
+
+Type  : Slow 900mV 0C Model Recovery 'Eth_10g_top_inst|Eth_10g_mac_inst|Eth_10gbaser_phy_inst|eth_10gbaser_phy_inst|xv_xcvr_10gbaser_nr_inst|ch[0].sv_xcvr_10gbaser_native_inst|g_fpll.altera_pll_156M~PLL_OUTPUT_COUNTER|divclk'
+Slack : 3.904
+TNS   : 0.000
+
+Type  : Slow 900mV 0C Model Removal 'Eth_10g_top_inst|Eth_10g_mac_inst|Eth_10gbaser_phy_inst|eth_10gbaser_phy_inst|xv_xcvr_10gbaser_nr_inst|ch[0].sv_xcvr_10gbaser_native_inst|g_fpll.altera_pll_156M~PLL_OUTPUT_COUNTER|divclk'
+Slack : 0.402
+TNS   : 0.000
+
+Type  : Slow 900mV 0C Model Minimum Pulse Width 'SPI_LMK04906_Config:SPI_LMK04906_Config_inst|clk_cnt[1]'
+Slack : -0.394
+TNS   : -42.701
+
+Type  : Slow 900mV 0C Model Minimum Pulse Width 'Eth_10g_top_inst|Eth_10g_mac_inst|Eth_10gbaser_phy_inst|eth_10gbaser_phy_inst|xv_xcvr_10gbaser_nr_inst|ch[0].sv_xcvr_10gbaser_native_inst|altera_pll_5G|pll[0].pll.cmu_pll.tx_pll|clkcdr'
+Slack : 0.096
+TNS   : 0.000
+
+Type  : Slow 900mV 0C Model Minimum Pulse Width 'Eth_10g_top_inst|Eth_10g_mac_inst|Eth_10gbaser_phy_inst|eth_10gbaser_phy_inst|xv_xcvr_10gbaser_nr_inst|ch[0].sv_xcvr_10gbaser_native_inst|native_inst|inst_sv_pma|rx_pma.sv_rx_pma_inst|rx_pmas[0].rx_pma.rx_cdr|clk90bdes'
+Slack : 0.096
+TNS   : 0.000
+
+Type  : Slow 900mV 0C Model Minimum Pulse Width 'pll_ref_clk_sig'
+Slack : 0.301
+TNS   : 0.000
+
+Type  : Slow 900mV 0C Model Minimum Pulse Width 'Eth_10g_top_inst|Eth_10g_mac_inst|Eth_10gbaser_phy_inst|eth_10gbaser_phy_inst|xv_xcvr_10gbaser_nr_inst|ch[0].sv_xcvr_10gbaser_native_inst|altera_pll_5G|pll[0].pll.cmu_pll.pll_mux.pll_refclk_select_mux|clkout'
+Slack : 0.775
+TNS   : 0.000
+
+Type  : Slow 900mV 0C Model Minimum Pulse Width 'Eth_10g_top_inst|Eth_10g_mac_inst|Eth_10gbaser_phy_inst|eth_10gbaser_phy_inst|xv_xcvr_10gbaser_nr_inst|ch[0].sv_xcvr_10gbaser_native_inst|g_fpll.altera_pll_156M~FRACTIONAL_PLL|vcoph[0]'
+Slack : 1.599
+TNS   : 0.000
+
+Type  : Slow 900mV 0C Model Minimum Pulse Width 'pll_inst|pll_inst|altera_pll_i|general[0].gpll~FRACTIONAL_PLL|vcoph[0]'
+Slack : 1.666
+TNS   : 0.000
+
+Type  : Slow 900mV 0C Model Minimum Pulse Width 'Eth_10g_top_inst|Eth_10g_mac_inst|Eth_10gbaser_phy_inst|eth_10gbaser_phy_inst|xv_xcvr_10gbaser_nr_inst|ch[0].sv_xcvr_10gbaser_native_inst|native_inst|inst_sv_pma|rx_pma.sv_rx_pma_inst|rx_pmas[0].rx_pma.rx_pma_deser|clk90b'
+Slack : 1.776
+TNS   : 0.000
+
+Type  : Slow 900mV 0C Model Minimum Pulse Width 'Eth_10g_top_inst|Eth_10g_mac_inst|Eth_10gbaser_phy_inst|eth_10gbaser_phy_inst|xv_xcvr_10gbaser_nr_inst|ch[0].sv_xcvr_10gbaser_native_inst|native_inst|inst_sv_pma|tx_pma.sv_tx_pma_inst|tx_pma_insts[0].sv_tx_pma_ch_inst|tx_pma_ch.tx_cgb|pclk[1]'
+Slack : 1.936
+TNS   : 0.000
+
+Type  : Slow 900mV 0C Model Minimum Pulse Width 'Eth_10g_top_inst|Eth_10g_mac_inst|Eth_10gbaser_phy_inst|eth_10gbaser_phy_inst|xv_xcvr_10gbaser_nr_inst|ch[0].sv_xcvr_10gbaser_native_inst|g_fpll.altera_pll_156M~PLL_OUTPUT_COUNTER|divclk'
+Slack : 2.375
+TNS   : 0.000
+
+Type  : Slow 900mV 0C Model Minimum Pulse Width 'pll_inst|pll_inst|altera_pll_i|general[0].gpll~PLL_OUTPUT_COUNTER|divclk'
+Slack : 4.417
+TNS   : 0.000
+
+Type  : Slow 900mV 0C Model Minimum Pulse Width 'OSC_50_B3B'
+Slack : 9.350
+TNS   : 0.000
+
+Type  : Fast 900mV 85C Model Setup 'OSC_50_B3B'
+Slack : -1.176
+TNS   : -1.176
+
+Type  : Fast 900mV 85C Model Setup 'SPI_LMK04906_Config:SPI_LMK04906_Config_inst|clk_cnt[1]'
+Slack : -0.997
+TNS   : -47.349
+
+Type  : Fast 900mV 85C Model Setup 'pll_ref_clk_sig'
+Slack : 1.521
+TNS   : 0.000
+
+Type  : Fast 900mV 85C Model Setup 'Eth_10g_top_inst|Eth_10g_mac_inst|Eth_10gbaser_phy_inst|eth_10gbaser_phy_inst|xv_xcvr_10gbaser_nr_inst|ch[0].sv_xcvr_10gbaser_native_inst|g_fpll.altera_pll_156M~PLL_OUTPUT_COUNTER|divclk'
+Slack : 3.812
+TNS   : 0.000
+
+Type  : Fast 900mV 85C Model Setup 'pll_inst|pll_inst|altera_pll_i|general[0].gpll~PLL_OUTPUT_COUNTER|divclk'
+Slack : 8.981
+TNS   : 0.000
+
+Type  : Fast 900mV 85C Model Setup 'n/a'
+Slack : 14.674
+TNS   : 0.000
+
+Type  : Fast 900mV 85C Model Hold 'Eth_10g_top_inst|Eth_10g_mac_inst|Eth_10gbaser_phy_inst|eth_10gbaser_phy_inst|xv_xcvr_10gbaser_nr_inst|ch[0].sv_xcvr_10gbaser_native_inst|g_fpll.altera_pll_156M~PLL_OUTPUT_COUNTER|divclk'
+Slack : 0.085
+TNS   : 0.000
+
+Type  : Fast 900mV 85C Model Hold 'SPI_LMK04906_Config:SPI_LMK04906_Config_inst|clk_cnt[1]'
+Slack : 0.102
+TNS   : 0.000
+
+Type  : Fast 900mV 85C Model Hold 'pll_inst|pll_inst|altera_pll_i|general[0].gpll~PLL_OUTPUT_COUNTER|divclk'
+Slack : 0.105
+TNS   : 0.000
+
+Type  : Fast 900mV 85C Model Hold 'OSC_50_B3B'
+Slack : 0.849
+TNS   : 0.000
+
+Type  : Fast 900mV 85C Model Hold 'pll_ref_clk_sig'
+Slack : 1.250
+TNS   : 0.000
+
+Type  : Fast 900mV 85C Model Hold 'n/a'
+Slack : 14.528
+TNS   : 0.000
+
+Type  : Fast 900mV 85C Model Recovery 'Eth_10g_top_inst|Eth_10g_mac_inst|Eth_10gbaser_phy_inst|eth_10gbaser_phy_inst|xv_xcvr_10gbaser_nr_inst|ch[0].sv_xcvr_10gbaser_native_inst|g_fpll.altera_pll_156M~PLL_OUTPUT_COUNTER|divclk'
+Slack : 4.543
+TNS   : 0.000
+
+Type  : Fast 900mV 85C Model Removal 'Eth_10g_top_inst|Eth_10g_mac_inst|Eth_10gbaser_phy_inst|eth_10gbaser_phy_inst|xv_xcvr_10gbaser_nr_inst|ch[0].sv_xcvr_10gbaser_native_inst|g_fpll.altera_pll_156M~PLL_OUTPUT_COUNTER|divclk'
+Slack : 0.243
+TNS   : 0.000
+
+Type  : Fast 900mV 85C Model Minimum Pulse Width 'Eth_10g_top_inst|Eth_10g_mac_inst|Eth_10gbaser_phy_inst|eth_10gbaser_phy_inst|xv_xcvr_10gbaser_nr_inst|ch[0].sv_xcvr_10gbaser_native_inst|altera_pll_5G|pll[0].pll.cmu_pll.tx_pll|clkcdr'
+Slack : 0.096
+TNS   : 0.000
+
+Type  : Fast 900mV 85C Model Minimum Pulse Width 'Eth_10g_top_inst|Eth_10g_mac_inst|Eth_10gbaser_phy_inst|eth_10gbaser_phy_inst|xv_xcvr_10gbaser_nr_inst|ch[0].sv_xcvr_10gbaser_native_inst|native_inst|inst_sv_pma|rx_pma.sv_rx_pma_inst|rx_pmas[0].rx_pma.rx_cdr|clk90bdes'
+Slack : 0.096
+TNS   : 0.000
+
+Type  : Fast 900mV 85C Model Minimum Pulse Width 'SPI_LMK04906_Config:SPI_LMK04906_Config_inst|clk_cnt[1]'
+Slack : 0.167
+TNS   : 0.000
+
+Type  : Fast 900mV 85C Model Minimum Pulse Width 'pll_ref_clk_sig'
+Slack : 0.301
+TNS   : 0.000
+
+Type  : Fast 900mV 85C Model Minimum Pulse Width 'Eth_10g_top_inst|Eth_10g_mac_inst|Eth_10gbaser_phy_inst|eth_10gbaser_phy_inst|xv_xcvr_10gbaser_nr_inst|ch[0].sv_xcvr_10gbaser_native_inst|altera_pll_5G|pll[0].pll.cmu_pll.pll_mux.pll_refclk_select_mux|clkout'
+Slack : 0.775
+TNS   : 0.000
+
+Type  : Fast 900mV 85C Model Minimum Pulse Width 'Eth_10g_top_inst|Eth_10g_mac_inst|Eth_10gbaser_phy_inst|eth_10gbaser_phy_inst|xv_xcvr_10gbaser_nr_inst|ch[0].sv_xcvr_10gbaser_native_inst|g_fpll.altera_pll_156M~FRACTIONAL_PLL|vcoph[0]'
+Slack : 1.599
+TNS   : 0.000
+
+Type  : Fast 900mV 85C Model Minimum Pulse Width 'pll_inst|pll_inst|altera_pll_i|general[0].gpll~FRACTIONAL_PLL|vcoph[0]'
+Slack : 1.666
+TNS   : 0.000
+
+Type  : Fast 900mV 85C Model Minimum Pulse Width 'Eth_10g_top_inst|Eth_10g_mac_inst|Eth_10gbaser_phy_inst|eth_10gbaser_phy_inst|xv_xcvr_10gbaser_nr_inst|ch[0].sv_xcvr_10gbaser_native_inst|native_inst|inst_sv_pma|rx_pma.sv_rx_pma_inst|rx_pmas[0].rx_pma.rx_pma_deser|clk90b'
+Slack : 1.880
+TNS   : 0.000
+
+Type  : Fast 900mV 85C Model Minimum Pulse Width 'Eth_10g_top_inst|Eth_10g_mac_inst|Eth_10gbaser_phy_inst|eth_10gbaser_phy_inst|xv_xcvr_10gbaser_nr_inst|ch[0].sv_xcvr_10gbaser_native_inst|native_inst|inst_sv_pma|tx_pma.sv_tx_pma_inst|tx_pma_insts[0].sv_tx_pma_ch_inst|tx_pma_ch.tx_cgb|pclk[1]'
+Slack : 1.925
+TNS   : 0.000
+
+Type  : Fast 900mV 85C Model Minimum Pulse Width 'Eth_10g_top_inst|Eth_10g_mac_inst|Eth_10gbaser_phy_inst|eth_10gbaser_phy_inst|xv_xcvr_10gbaser_nr_inst|ch[0].sv_xcvr_10gbaser_native_inst|g_fpll.altera_pll_156M~PLL_OUTPUT_COUNTER|divclk'
+Slack : 2.381
+TNS   : 0.000
+
+Type  : Fast 900mV 85C Model Minimum Pulse Width 'pll_inst|pll_inst|altera_pll_i|general[0].gpll~PLL_OUTPUT_COUNTER|divclk'
+Slack : 4.651
+TNS   : 0.000
+
+Type  : Fast 900mV 85C Model Minimum Pulse Width 'OSC_50_B3B'
+Slack : 9.726
+TNS   : 0.000
+
+Type  : Fast 900mV 0C Model Setup 'OSC_50_B3B'
+Slack : -1.059
+TNS   : -1.059
+
+Type  : Fast 900mV 0C Model Setup 'SPI_LMK04906_Config:SPI_LMK04906_Config_inst|clk_cnt[1]'
+Slack : -0.882
+TNS   : -40.258
+
+Type  : Fast 900mV 0C Model Setup 'pll_ref_clk_sig'
+Slack : 1.521
+TNS   : 0.000
+
+Type  : Fast 900mV 0C Model Setup 'Eth_10g_top_inst|Eth_10g_mac_inst|Eth_10gbaser_phy_inst|eth_10gbaser_phy_inst|xv_xcvr_10gbaser_nr_inst|ch[0].sv_xcvr_10gbaser_native_inst|g_fpll.altera_pll_156M~PLL_OUTPUT_COUNTER|divclk'
+Slack : 3.945
+TNS   : 0.000
+
+Type  : Fast 900mV 0C Model Setup 'pll_inst|pll_inst|altera_pll_i|general[0].gpll~PLL_OUTPUT_COUNTER|divclk'
+Slack : 9.103
+TNS   : 0.000
+
+Type  : Fast 900mV 0C Model Setup 'n/a'
+Slack : 14.914
+TNS   : 0.000
+
+Type  : Fast 900mV 0C Model Hold 'SPI_LMK04906_Config:SPI_LMK04906_Config_inst|clk_cnt[1]'
+Slack : 0.092
+TNS   : 0.000
+
+Type  : Fast 900mV 0C Model Hold 'Eth_10g_top_inst|Eth_10g_mac_inst|Eth_10gbaser_phy_inst|eth_10gbaser_phy_inst|xv_xcvr_10gbaser_nr_inst|ch[0].sv_xcvr_10gbaser_native_inst|g_fpll.altera_pll_156M~PLL_OUTPUT_COUNTER|divclk'
+Slack : 0.135
+TNS   : 0.000
+
+Type  : Fast 900mV 0C Model Hold 'pll_inst|pll_inst|altera_pll_i|general[0].gpll~PLL_OUTPUT_COUNTER|divclk'
+Slack : 0.150
+TNS   : 0.000
+
+Type  : Fast 900mV 0C Model Hold 'OSC_50_B3B'
+Slack : 0.725
+TNS   : 0.000
+
+Type  : Fast 900mV 0C Model Hold 'pll_ref_clk_sig'
+Slack : 1.250
+TNS   : 0.000
+
+Type  : Fast 900mV 0C Model Hold 'n/a'
+Slack : 14.366
+TNS   : 0.000
+
+Type  : Fast 900mV 0C Model Recovery 'Eth_10g_top_inst|Eth_10g_mac_inst|Eth_10gbaser_phy_inst|eth_10gbaser_phy_inst|xv_xcvr_10gbaser_nr_inst|ch[0].sv_xcvr_10gbaser_native_inst|g_fpll.altera_pll_156M~PLL_OUTPUT_COUNTER|divclk'
+Slack : 4.703
+TNS   : 0.000
+
+Type  : Fast 900mV 0C Model Removal 'Eth_10g_top_inst|Eth_10g_mac_inst|Eth_10gbaser_phy_inst|eth_10gbaser_phy_inst|xv_xcvr_10gbaser_nr_inst|ch[0].sv_xcvr_10gbaser_native_inst|g_fpll.altera_pll_156M~PLL_OUTPUT_COUNTER|divclk'
+Slack : 0.276
+TNS   : 0.000
+
+Type  : Fast 900mV 0C Model Minimum Pulse Width 'Eth_10g_top_inst|Eth_10g_mac_inst|Eth_10gbaser_phy_inst|eth_10gbaser_phy_inst|xv_xcvr_10gbaser_nr_inst|ch[0].sv_xcvr_10gbaser_native_inst|altera_pll_5G|pll[0].pll.cmu_pll.tx_pll|clkcdr'
+Slack : 0.096
+TNS   : 0.000
+
+Type  : Fast 900mV 0C Model Minimum Pulse Width 'Eth_10g_top_inst|Eth_10g_mac_inst|Eth_10gbaser_phy_inst|eth_10gbaser_phy_inst|xv_xcvr_10gbaser_nr_inst|ch[0].sv_xcvr_10gbaser_native_inst|native_inst|inst_sv_pma|rx_pma.sv_rx_pma_inst|rx_pmas[0].rx_pma.rx_cdr|clk90bdes'
+Slack : 0.096
+TNS   : 0.000
+
+Type  : Fast 900mV 0C Model Minimum Pulse Width 'SPI_LMK04906_Config:SPI_LMK04906_Config_inst|clk_cnt[1]'
+Slack : 0.167
+TNS   : 0.000
+
+Type  : Fast 900mV 0C Model Minimum Pulse Width 'pll_ref_clk_sig'
+Slack : 0.301
+TNS   : 0.000
+
+Type  : Fast 900mV 0C Model Minimum Pulse Width 'Eth_10g_top_inst|Eth_10g_mac_inst|Eth_10gbaser_phy_inst|eth_10gbaser_phy_inst|xv_xcvr_10gbaser_nr_inst|ch[0].sv_xcvr_10gbaser_native_inst|altera_pll_5G|pll[0].pll.cmu_pll.pll_mux.pll_refclk_select_mux|clkout'
+Slack : 0.775
+TNS   : 0.000
+
+Type  : Fast 900mV 0C Model Minimum Pulse Width 'Eth_10g_top_inst|Eth_10g_mac_inst|Eth_10gbaser_phy_inst|eth_10gbaser_phy_inst|xv_xcvr_10gbaser_nr_inst|ch[0].sv_xcvr_10gbaser_native_inst|g_fpll.altera_pll_156M~FRACTIONAL_PLL|vcoph[0]'
+Slack : 1.599
+TNS   : 0.000
+
+Type  : Fast 900mV 0C Model Minimum Pulse Width 'pll_inst|pll_inst|altera_pll_i|general[0].gpll~FRACTIONAL_PLL|vcoph[0]'
+Slack : 1.666
+TNS   : 0.000
+
+Type  : Fast 900mV 0C Model Minimum Pulse Width 'Eth_10g_top_inst|Eth_10g_mac_inst|Eth_10gbaser_phy_inst|eth_10gbaser_phy_inst|xv_xcvr_10gbaser_nr_inst|ch[0].sv_xcvr_10gbaser_native_inst|native_inst|inst_sv_pma|rx_pma.sv_rx_pma_inst|rx_pmas[0].rx_pma.rx_pma_deser|clk90b'
+Slack : 1.879
+TNS   : 0.000
+
+Type  : Fast 900mV 0C Model Minimum Pulse Width 'Eth_10g_top_inst|Eth_10g_mac_inst|Eth_10gbaser_phy_inst|eth_10gbaser_phy_inst|xv_xcvr_10gbaser_nr_inst|ch[0].sv_xcvr_10gbaser_native_inst|native_inst|inst_sv_pma|tx_pma.sv_tx_pma_inst|tx_pma_insts[0].sv_tx_pma_ch_inst|tx_pma_ch.tx_cgb|pclk[1]'
+Slack : 1.925
+TNS   : 0.000
+
+Type  : Fast 900mV 0C Model Minimum Pulse Width 'Eth_10g_top_inst|Eth_10g_mac_inst|Eth_10gbaser_phy_inst|eth_10gbaser_phy_inst|xv_xcvr_10gbaser_nr_inst|ch[0].sv_xcvr_10gbaser_native_inst|g_fpll.altera_pll_156M~PLL_OUTPUT_COUNTER|divclk'
+Slack : 2.449
+TNS   : 0.000
+
+Type  : Fast 900mV 0C Model Minimum Pulse Width 'pll_inst|pll_inst|altera_pll_i|general[0].gpll~PLL_OUTPUT_COUNTER|divclk'
+Slack : 4.670
+TNS   : 0.000
+
+Type  : Fast 900mV 0C Model Minimum Pulse Width 'OSC_50_B3B'
+Slack : 9.725
+TNS   : 0.000
+
+------------------------------------------------------------

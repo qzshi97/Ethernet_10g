@@ -1,0 +1,516 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<simPackage>
+ <file
+   path="Eth_10gmac_sim/error_adapter/error_adapter_0003.sv"
+   type="SYSTEM_VERILOG"
+   library="error_adapter_0" />
+ <file
+   path="Eth_10gmac_sim/altera_merlin_router/altera_merlin_router_0005.sv"
+   type="SYSTEM_VERILOG"
+   library="router" />
+ <file
+   path="Eth_10gmac_sim/altera_merlin_multiplexer/altera_merlin_multiplexer_0004.sv"
+   type="SYSTEM_VERILOG"
+   library="rsp_mux" />
+ <file
+   path="Eth_10gmac_sim/altera_merlin_multiplexer/altera_merlin_arbitrator.sv"
+   type="SYSTEM_VERILOG"
+   library="rsp_mux" />
+ <file
+   path="Eth_10gmac_sim/altera_merlin_demultiplexer/altera_merlin_demultiplexer_0004.sv"
+   type="SYSTEM_VERILOG"
+   library="rsp_demux" />
+ <file
+   path="Eth_10gmac_sim/altera_merlin_multiplexer/altera_merlin_multiplexer_0003.sv"
+   type="SYSTEM_VERILOG"
+   library="cmd_mux" />
+ <file
+   path="Eth_10gmac_sim/altera_merlin_multiplexer/altera_merlin_arbitrator.sv"
+   type="SYSTEM_VERILOG"
+   library="cmd_mux" />
+ <file
+   path="Eth_10gmac_sim/altera_merlin_demultiplexer/altera_merlin_demultiplexer_0003.sv"
+   type="SYSTEM_VERILOG"
+   library="cmd_demux" />
+ <file
+   path="Eth_10gmac_sim/altera_merlin_router/altera_merlin_router_0004.sv"
+   type="SYSTEM_VERILOG"
+   library="router_001" />
+ <file
+   path="Eth_10gmac_sim/altera_merlin_router/altera_merlin_router_0003.sv"
+   type="SYSTEM_VERILOG"
+   library="router" />
+ <file
+   path="Eth_10gmac_sim/altera_avalon_st_adapter/altera_avalon_st_adapter_0001.v"
+   type="VERILOG"
+   library="avalon_st_adapter" />
+ <file
+   path="Eth_10gmac_sim/altera_avalon_st_handshake_clock_crosser/altera_avalon_st_handshake_clock_crosser.v"
+   type="SYSTEM_VERILOG"
+   library="crosser" />
+ <file
+   path="Eth_10gmac_sim/altera_avalon_st_handshake_clock_crosser/altera_avalon_st_clock_crosser.v"
+   type="SYSTEM_VERILOG"
+   library="crosser" />
+ <file
+   path="Eth_10gmac_sim/altera_avalon_st_handshake_clock_crosser/altera_avalon_st_pipeline_base.v"
+   type="SYSTEM_VERILOG"
+   library="crosser" />
+ <file
+   path="Eth_10gmac_sim/altera_avalon_st_handshake_clock_crosser/altera_std_synchronizer_nocut.v"
+   type="SYSTEM_VERILOG"
+   library="crosser" />
+ <file
+   path="Eth_10gmac_sim/altera_avalon_st_handshake_clock_crosser/altera_avalon_st_handshake_clock_crosser.sdc"
+   type="SDC"
+   library="crosser" />
+ <file
+   path="Eth_10gmac_sim/altera_merlin_multiplexer/altera_merlin_multiplexer_0002.sv"
+   type="SYSTEM_VERILOG"
+   library="rsp_mux" />
+ <file
+   path="Eth_10gmac_sim/altera_merlin_multiplexer/altera_merlin_arbitrator.sv"
+   type="SYSTEM_VERILOG"
+   library="rsp_mux" />
+ <file
+   path="Eth_10gmac_sim/altera_merlin_demultiplexer/altera_merlin_demultiplexer_0002.sv"
+   type="SYSTEM_VERILOG"
+   library="rsp_demux" />
+ <file
+   path="Eth_10gmac_sim/altera_merlin_multiplexer/altera_merlin_multiplexer_0001.sv"
+   type="SYSTEM_VERILOG"
+   library="cmd_mux" />
+ <file
+   path="Eth_10gmac_sim/altera_merlin_multiplexer/altera_merlin_arbitrator.sv"
+   type="SYSTEM_VERILOG"
+   library="cmd_mux" />
+ <file
+   path="Eth_10gmac_sim/altera_merlin_demultiplexer/altera_merlin_demultiplexer_0001.sv"
+   type="SYSTEM_VERILOG"
+   library="cmd_demux" />
+ <file
+   path="Eth_10gmac_sim/altera_merlin_traffic_limiter/altera_merlin_traffic_limiter.sv"
+   type="SYSTEM_VERILOG"
+   library="merlin_master_translator_avalon_universal_master_0_limiter" />
+ <file
+   path="Eth_10gmac_sim/altera_merlin_traffic_limiter/altera_merlin_reorder_memory.sv"
+   type="SYSTEM_VERILOG"
+   library="merlin_master_translator_avalon_universal_master_0_limiter" />
+ <file
+   path="Eth_10gmac_sim/altera_merlin_traffic_limiter/altera_avalon_sc_fifo.v"
+   type="SYSTEM_VERILOG"
+   library="merlin_master_translator_avalon_universal_master_0_limiter" />
+ <file
+   path="Eth_10gmac_sim/altera_merlin_traffic_limiter/altera_avalon_st_pipeline_base.v"
+   type="SYSTEM_VERILOG"
+   library="merlin_master_translator_avalon_universal_master_0_limiter" />
+ <file
+   path="Eth_10gmac_sim/altera_merlin_router/altera_merlin_router_0002.sv"
+   type="SYSTEM_VERILOG"
+   library="router_001" />
+ <file
+   path="Eth_10gmac_sim/altera_merlin_router/altera_merlin_router_0001.sv"
+   type="SYSTEM_VERILOG"
+   library="router" />
+ <file
+   path="Eth_10gmac_sim/altera_avalon_sc_fifo/altera_avalon_sc_fifo.v"
+   type="VERILOG"
+   library="tx_bridge_s0_agent_rsp_fifo" />
+ <file
+   path="Eth_10gmac_sim/altera_merlin_slave_agent/altera_merlin_slave_agent.sv"
+   type="SYSTEM_VERILOG"
+   library="tx_bridge_s0_agent" />
+ <file
+   path="Eth_10gmac_sim/altera_merlin_slave_agent/altera_merlin_burst_uncompressor.sv"
+   type="SYSTEM_VERILOG"
+   library="tx_bridge_s0_agent" />
+ <file
+   path="Eth_10gmac_sim/altera_merlin_master_agent/altera_merlin_master_agent.sv"
+   type="SYSTEM_VERILOG"
+   library="merlin_master_translator_avalon_universal_master_0_agent" />
+ <file
+   path="Eth_10gmac_sim/altera_merlin_slave_translator/altera_merlin_slave_translator.sv"
+   type="SYSTEM_VERILOG"
+   library="tx_bridge_s0_translator" />
+ <file
+   path="Eth_10gmac_sim/altera_reset_controller/altera_reset_controller.v"
+   type="VERILOG"
+   library="rst_controller" />
+ <file
+   path="Eth_10gmac_sim/altera_reset_controller/altera_reset_synchronizer.v"
+   type="VERILOG"
+   library="rst_controller" />
+ <file
+   path="Eth_10gmac_sim/altera_reset_controller/altera_reset_controller.sdc"
+   type="SDC"
+   library="rst_controller" />
+ <file
+   path="Eth_10gmac_sim/altera_mm_interconnect/altera_mm_interconnect_0003.v"
+   type="VERILOG"
+   library="mm_interconnect_2" />
+ <file
+   path="Eth_10gmac_sim/altera_mm_interconnect/altera_mm_interconnect_0002.v"
+   type="VERILOG"
+   library="mm_interconnect_1" />
+ <file
+   path="Eth_10gmac_sim/altera_mm_interconnect/altera_mm_interconnect_0001.v"
+   type="VERILOG"
+   library="mm_interconnect_0" />
+ <file
+   path="Eth_10gmac_sim/timing_adapter/timing_adapter_0008.sv"
+   type="SYSTEM_VERILOG"
+   library="rxtx_timing_adapter_pauselen_tx" />
+ <file
+   path="Eth_10gmac_sim/timing_adapter/timing_adapter_0007.sv"
+   type="SYSTEM_VERILOG"
+   library="rxtx_timing_adapter_pauselen_rx" />
+ <file
+   path="Eth_10gmac_sim/altera_avalon_dc_fifo/altera_avalon_dc_fifo.v"
+   type="VERILOG"
+   library="rxtx_dc_fifo_link_fault_status" />
+ <file
+   path="Eth_10gmac_sim/altera_avalon_dc_fifo/altera_dcfifo_synchronizer_bundle.v"
+   type="VERILOG"
+   library="rxtx_dc_fifo_link_fault_status" />
+ <file
+   path="Eth_10gmac_sim/altera_avalon_dc_fifo/altera_std_synchronizer_nocut.v"
+   type="VERILOG"
+   library="rxtx_dc_fifo_link_fault_status" />
+ <file
+   path="Eth_10gmac_sim/timing_adapter/timing_adapter_0006.sv"
+   type="SYSTEM_VERILOG"
+   library="txrx_timing_adapter_link_fault_status_export" />
+ <file
+   path="Eth_10gmac_sim/timing_adapter/timing_adapter_0005.sv"
+   type="SYSTEM_VERILOG"
+   library="txrx_timing_adapter_link_fault_status_rx" />
+ <file
+   path="Eth_10gmac_sim/error_adapter/error_adapter_0002.sv"
+   type="SYSTEM_VERILOG"
+   library="rx_st_error_adapter_stat" />
+ <file
+   path="Eth_10gmac_sim/altera_avalon_st_delay/altera_avalon_st_delay.sv"
+   type="SYSTEM_VERILOG"
+   library="rx_st_status_output_delay" />
+ <file
+   path="Eth_10gmac_sim/altera_eth_packet_overflow_control/mentor/altera_eth_packet_overflow_control.v"
+   type="VERILOG_ENCRYPT"
+   library="rx_eth_packet_overflow_control"
+   simulator="modelsim" />
+ <file
+   path="Eth_10gmac_sim/altera_eth_packet_overflow_control/aldec/altera_eth_packet_overflow_control.v"
+   type="VERILOG_ENCRYPT"
+   library="rx_eth_packet_overflow_control"
+   simulator="riviera" />
+ <file
+   path="Eth_10gmac_sim/altera_eth_crc_pad_rem/mentor/altera_eth_crc_pad_rem.v"
+   type="VERILOG_ENCRYPT"
+   library="rx_eth_crc_pad_rem"
+   simulator="modelsim" />
+ <file
+   path="Eth_10gmac_sim/altera_eth_crc_pad_rem/mentor/altera_eth_crc_rem.v"
+   type="VERILOG_ENCRYPT"
+   library="rx_eth_crc_pad_rem"
+   simulator="modelsim" />
+ <file
+   path="Eth_10gmac_sim/altera_eth_crc_pad_rem/mentor/altera_packet_stripper.v"
+   type="VERILOG_ENCRYPT"
+   library="rx_eth_crc_pad_rem"
+   simulator="modelsim" />
+ <file
+   path="Eth_10gmac_sim/altera_eth_crc_pad_rem/aldec/altera_eth_crc_pad_rem.v"
+   type="VERILOG_ENCRYPT"
+   library="rx_eth_crc_pad_rem"
+   simulator="riviera" />
+ <file
+   path="Eth_10gmac_sim/altera_eth_crc_pad_rem/aldec/altera_eth_crc_rem.v"
+   type="VERILOG_ENCRYPT"
+   library="rx_eth_crc_pad_rem"
+   simulator="riviera" />
+ <file
+   path="Eth_10gmac_sim/altera_eth_crc_pad_rem/aldec/altera_packet_stripper.v"
+   type="VERILOG_ENCRYPT"
+   library="rx_eth_crc_pad_rem"
+   simulator="riviera" />
+ <file
+   path="Eth_10gmac_sim/altera_eth_crc_pad_rem/altera_eth_crc_pad_rem_pipeline_stage.sv"
+   type="SYSTEM_VERILOG"
+   library="rx_eth_crc_pad_rem" />
+ <file
+   path="Eth_10gmac_sim/altera_eth_crc_pad_rem/altera_eth_crc_pad_rem_pipeline_base.v"
+   type="VERILOG"
+   library="rx_eth_crc_pad_rem" />
+ <file
+   path="Eth_10gmac_sim/altera_eth_frame_status_merger/mentor/altera_eth_frame_status_merger.v"
+   type="VERILOG_ENCRYPT"
+   library="rx_eth_frame_status_merger"
+   simulator="modelsim" />
+ <file
+   path="Eth_10gmac_sim/altera_eth_frame_status_merger/aldec/altera_eth_frame_status_merger.v"
+   type="VERILOG_ENCRYPT"
+   library="rx_eth_frame_status_merger"
+   simulator="riviera" />
+ <file
+   path="Eth_10gmac_sim/timing_adapter/timing_adapter_0004.sv"
+   type="SYSTEM_VERILOG"
+   library="rx_timing_adapter_frame_status_out_frame_decoder" />
+ <file
+   path="Eth_10gmac_sim/altera_eth_frame_decoder/mentor/altera_eth_frame_decoder.v"
+   type="VERILOG_ENCRYPT"
+   library="rx_eth_frame_decoder"
+   simulator="modelsim" />
+ <file
+   path="Eth_10gmac_sim/altera_eth_frame_decoder/aldec/altera_eth_frame_decoder.v"
+   type="VERILOG_ENCRYPT"
+   library="rx_eth_frame_decoder"
+   simulator="riviera" />
+ <file
+   path="Eth_10gmac_sim/altera_eth_frame_decoder/altera_eth_frame_decoder_pipeline_stage.sv"
+   type="SYSTEM_VERILOG"
+   library="rx_eth_frame_decoder" />
+ <file
+   path="Eth_10gmac_sim/altera_eth_frame_decoder/altera_eth_frame_decoder_pipeline_base.v"
+   type="VERILOG"
+   library="rx_eth_frame_decoder" />
+ <file
+   path="Eth_10gmac_sim/timing_adapter/timing_adapter_0003.sv"
+   type="SYSTEM_VERILOG"
+   library="rx_st_timing_adapter_frame_status_in" />
+ <file
+   path="Eth_10gmac_sim/altera_eth_lane_decoder/mentor/altera_eth_lane_decoder.v"
+   type="VERILOG_ENCRYPT"
+   library="rx_eth_lane_decoder"
+   simulator="modelsim" />
+ <file
+   path="Eth_10gmac_sim/altera_eth_lane_decoder/aldec/altera_eth_lane_decoder.v"
+   type="VERILOG_ENCRYPT"
+   library="rx_eth_lane_decoder"
+   simulator="riviera" />
+ <file
+   path="Eth_10gmac_sim/altera_eth_link_fault_detection/mentor/altera_eth_link_fault_detection.v"
+   type="VERILOG_ENCRYPT"
+   library="rx_eth_link_fault_detection"
+   simulator="modelsim" />
+ <file
+   path="Eth_10gmac_sim/altera_eth_link_fault_detection/aldec/altera_eth_link_fault_detection.v"
+   type="VERILOG_ENCRYPT"
+   library="rx_eth_link_fault_detection"
+   simulator="riviera" />
+ <file
+   path="Eth_10gmac_sim/altera_eth_10g_rx_register_map/mentor/altera_eth_10g_rx_register_map.v"
+   type="VERILOG_ENCRYPT"
+   library="rx_register_map"
+   simulator="modelsim" />
+ <file
+   path="Eth_10gmac_sim/altera_eth_10g_rx_register_map/aldec/altera_eth_10g_rx_register_map.v"
+   type="VERILOG_ENCRYPT"
+   library="rx_register_map"
+   simulator="riviera" />
+ <file
+   path="Eth_10gmac_sim/altera_eth_10g_rx_register_map/altera_avalon_st_clock_crosser.v"
+   type="VERILOG"
+   library="rx_register_map" />
+ <file
+   path="Eth_10gmac_sim/altera_eth_link_fault_generation/mentor/altera_eth_link_fault_generation.v"
+   type="VERILOG_ENCRYPT"
+   library="tx_eth_link_fault_generation"
+   simulator="modelsim" />
+ <file
+   path="Eth_10gmac_sim/altera_eth_link_fault_generation/aldec/altera_eth_link_fault_generation.v"
+   type="VERILOG_ENCRYPT"
+   library="tx_eth_link_fault_generation"
+   simulator="riviera" />
+ <file
+   path="Eth_10gmac_sim/timing_adapter/timing_adapter_0002.sv"
+   type="SYSTEM_VERILOG"
+   library="tx_st_timing_adapter_splitter_out_0" />
+ <file
+   path="Eth_10gmac_sim/altera_avalon_st_splitter/altera_avalon_st_splitter.sv"
+   type="SYSTEM_VERILOG"
+   library="tx_st_splitter_xgmii" />
+ <file
+   path="Eth_10gmac_sim/timing_adapter/timing_adapter_0001.sv"
+   type="SYSTEM_VERILOG"
+   library="tx_st_timing_adapter_splitter_in" />
+ <file
+   path="Eth_10gmac_sim/altera_eth_xgmii_termination/mentor/altera_eth_xgmii_termination.v"
+   type="VERILOG_ENCRYPT"
+   library="tx_eth_xgmii_termination"
+   simulator="modelsim" />
+ <file
+   path="Eth_10gmac_sim/altera_eth_xgmii_termination/aldec/altera_eth_xgmii_termination.v"
+   type="VERILOG_ENCRYPT"
+   library="tx_eth_xgmii_termination"
+   simulator="riviera" />
+ <file
+   path="Eth_10gmac_sim/altera_eth_packet_formatter/mentor/altera_eth_packet_formatter.v"
+   type="VERILOG_ENCRYPT"
+   library="tx_eth_packet_formatter"
+   simulator="modelsim" />
+ <file
+   path="Eth_10gmac_sim/altera_eth_packet_formatter/aldec/altera_eth_packet_formatter.v"
+   type="VERILOG_ENCRYPT"
+   library="tx_eth_packet_formatter"
+   simulator="riviera" />
+ <file
+   path="Eth_10gmac_sim/altera_avalon_st_pipeline_stage/altera_avalon_st_pipeline_stage.sv"
+   type="SYSTEM_VERILOG"
+   library="tx_st_pipeline_stage_rs" />
+ <file
+   path="Eth_10gmac_sim/altera_avalon_st_pipeline_stage/altera_avalon_st_pipeline_base.v"
+   type="SYSTEM_VERILOG"
+   library="tx_st_pipeline_stage_rs" />
+ <file
+   path="Eth_10gmac_sim/altera_eth_crc/mentor/altera_eth_crc.v"
+   type="VERILOG_ENCRYPT"
+   library="tx_eth_crc_inserter"
+   simulator="modelsim" />
+ <file
+   path="Eth_10gmac_sim/altera_eth_crc/mentor/crc32.v"
+   type="VERILOG_ENCRYPT"
+   library="tx_eth_crc_inserter"
+   simulator="modelsim" />
+ <file
+   path="Eth_10gmac_sim/altera_eth_crc/mentor/gf_mult32_kc.v"
+   type="VERILOG_ENCRYPT"
+   library="tx_eth_crc_inserter"
+   simulator="modelsim" />
+ <file
+   path="Eth_10gmac_sim/altera_eth_crc/aldec/altera_eth_crc.v"
+   type="VERILOG_ENCRYPT"
+   library="tx_eth_crc_inserter"
+   simulator="riviera" />
+ <file
+   path="Eth_10gmac_sim/altera_eth_crc/aldec/crc32.v"
+   type="VERILOG_ENCRYPT"
+   library="tx_eth_crc_inserter"
+   simulator="riviera" />
+ <file
+   path="Eth_10gmac_sim/altera_eth_crc/aldec/gf_mult32_kc.v"
+   type="VERILOG_ENCRYPT"
+   library="tx_eth_crc_inserter"
+   simulator="riviera" />
+ <file
+   path="Eth_10gmac_sim/altera_eth_address_inserter/mentor/altera_eth_address_inserter.v"
+   type="VERILOG_ENCRYPT"
+   library="tx_eth_address_inserter"
+   simulator="modelsim" />
+ <file
+   path="Eth_10gmac_sim/altera_eth_address_inserter/aldec/altera_eth_address_inserter.v"
+   type="VERILOG_ENCRYPT"
+   library="tx_eth_address_inserter"
+   simulator="riviera" />
+ <file
+   path="Eth_10gmac_sim/multiplexer/multiplexer_0001.sv"
+   type="SYSTEM_VERILOG"
+   library="tx_st_mux_flow_control_user_frame" />
+ <file
+   path="Eth_10gmac_sim/error_adapter/error_adapter_0001.sv"
+   type="SYSTEM_VERILOG"
+   library="tx_st_pause_ctrl_error_adapter" />
+ <file
+   path="Eth_10gmac_sim/altera_eth_pause_ctrl_gen/mentor/altera_eth_pause_ctrl_gen.v"
+   type="VERILOG_ENCRYPT"
+   library="tx_eth_pause_ctrl_gen"
+   simulator="modelsim" />
+ <file
+   path="Eth_10gmac_sim/altera_eth_pause_ctrl_gen/mentor/altera_eth_pause_controller.v"
+   type="VERILOG_ENCRYPT"
+   library="tx_eth_pause_ctrl_gen"
+   simulator="modelsim" />
+ <file
+   path="Eth_10gmac_sim/altera_eth_pause_ctrl_gen/mentor/altera_eth_pause_gen.v"
+   type="VERILOG_ENCRYPT"
+   library="tx_eth_pause_ctrl_gen"
+   simulator="modelsim" />
+ <file
+   path="Eth_10gmac_sim/altera_eth_pause_ctrl_gen/aldec/altera_eth_pause_ctrl_gen.v"
+   type="VERILOG_ENCRYPT"
+   library="tx_eth_pause_ctrl_gen"
+   simulator="riviera" />
+ <file
+   path="Eth_10gmac_sim/altera_eth_pause_ctrl_gen/aldec/altera_eth_pause_controller.v"
+   type="VERILOG_ENCRYPT"
+   library="tx_eth_pause_ctrl_gen"
+   simulator="riviera" />
+ <file
+   path="Eth_10gmac_sim/altera_eth_pause_ctrl_gen/aldec/altera_eth_pause_gen.v"
+   type="VERILOG_ENCRYPT"
+   library="tx_eth_pause_ctrl_gen"
+   simulator="riviera" />
+ <file
+   path="Eth_10gmac_sim/altera_eth_pause_beat_conversion/mentor/altera_eth_pause_beat_conversion.v"
+   type="VERILOG_ENCRYPT"
+   library="tx_eth_pause_beat_conversion"
+   simulator="modelsim" />
+ <file
+   path="Eth_10gmac_sim/altera_eth_pause_beat_conversion/aldec/altera_eth_pause_beat_conversion.v"
+   type="VERILOG_ENCRYPT"
+   library="tx_eth_pause_beat_conversion"
+   simulator="riviera" />
+ <file
+   path="Eth_10gmac_sim/altera_eth_pkt_backpressure_control/mentor/altera_eth_pkt_backpressure_control.v"
+   type="VERILOG_ENCRYPT"
+   library="tx_eth_pkt_backpressure_control"
+   simulator="modelsim" />
+ <file
+   path="Eth_10gmac_sim/altera_eth_pkt_backpressure_control/aldec/altera_eth_pkt_backpressure_control.v"
+   type="VERILOG_ENCRYPT"
+   library="tx_eth_pkt_backpressure_control"
+   simulator="riviera" />
+ <file
+   path="Eth_10gmac_sim/altera_eth_pad_inserter/mentor/altera_eth_pad_inserter.v"
+   type="VERILOG_ENCRYPT"
+   library="tx_eth_pad_inserter"
+   simulator="modelsim" />
+ <file
+   path="Eth_10gmac_sim/altera_eth_pad_inserter/aldec/altera_eth_pad_inserter.v"
+   type="VERILOG_ENCRYPT"
+   library="tx_eth_pad_inserter"
+   simulator="riviera" />
+ <file
+   path="Eth_10gmac_sim/altera_eth_packet_underflow_control/mentor/altera_eth_packet_underflow_control.v"
+   type="VERILOG_ENCRYPT"
+   library="tx_eth_packet_underflow_control"
+   simulator="modelsim" />
+ <file
+   path="Eth_10gmac_sim/altera_eth_packet_underflow_control/aldec/altera_eth_packet_underflow_control.v"
+   type="VERILOG_ENCRYPT"
+   library="tx_eth_packet_underflow_control"
+   simulator="riviera" />
+ <file
+   path="Eth_10gmac_sim/altera_eth_10g_tx_register_map/mentor/altera_eth_10g_tx_register_map.v"
+   type="VERILOG_ENCRYPT"
+   library="tx_register_map"
+   simulator="modelsim" />
+ <file
+   path="Eth_10gmac_sim/altera_eth_10g_tx_register_map/aldec/altera_eth_10g_tx_register_map.v"
+   type="VERILOG_ENCRYPT"
+   library="tx_register_map"
+   simulator="riviera" />
+ <file
+   path="Eth_10gmac_sim/altera_eth_10g_tx_register_map/altera_avalon_st_clock_crosser.v"
+   type="VERILOG"
+   library="tx_register_map" />
+ <file
+   path="Eth_10gmac_sim/altera_eth_default_slave/mentor/altera_eth_default_slave.v"
+   type="VERILOG_ENCRYPT"
+   library="tx_eth_default_slave"
+   simulator="modelsim" />
+ <file
+   path="Eth_10gmac_sim/altera_eth_default_slave/aldec/altera_eth_default_slave.v"
+   type="VERILOG_ENCRYPT"
+   library="tx_eth_default_slave"
+   simulator="riviera" />
+ <file
+   path="Eth_10gmac_sim/altera_avalon_mm_bridge/altera_avalon_mm_bridge.v"
+   type="VERILOG"
+   library="tx_bridge" />
+ <file
+   path="Eth_10gmac_sim/altera_merlin_master_translator/altera_merlin_master_translator.sv"
+   type="SYSTEM_VERILOG"
+   library="merlin_master_translator" />
+ <file path="Eth_10gmac_sim/Eth_10gmac.v" type="VERILOG" />
+ <topLevel name="Eth_10gmac" />
+ <deviceFamily name="stratixv" />
+</simPackage>

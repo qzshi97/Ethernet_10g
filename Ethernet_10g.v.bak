@@ -1,0 +1,7 @@
+module Ethernet_10g(
+
+
+
+);
+
+endmodule

@@ -1,0 +1,23 @@
+Analysis & Synthesis Status : Successful - Sun Sep 30 18:38:52 2018
+Quartus Prime Version : 17.1.0 Build 590 10/25/2017 SJ Standard Edition
+Revision Name : Ethernet_10g
+Top-level Entity Name : Ethernet_10g
+Family : Stratix V
+Logic utilization (in ALMs) : N/A
+Total registers : 3272
+Total pins : 9
+Total virtual pins : 0
+Total block memory bits : 16,966
+Total DSP Blocks : 0
+Total HSSI STD RX PCSs : 0
+Total HSSI 10G RX PCSs : 1
+Total HSSI GEN3 RX PCSs : 0
+Total HSSI PMA RX Deserializers : 1
+Total HSSI STD TX PCSs : 0
+Total HSSI 10G TX PCSs : 1
+Total HSSI GEN3 TX PCSs : 0
+Total HSSI PMA TX Serializers : 1
+Total HSSI PIPE GEN1_2s : 0
+Total HSSI GEN3s : 0
+Total PLLs : 4
+Total DLLs : 0

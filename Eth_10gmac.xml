@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<instance entity-name="altera_eth_10g_mac" version="17.1" >
+<generic name="DEVICE_FAMILY" value="Stratix V" />
+<generic name="ENABLE_TIMESTAMPING" value="0" />
+<generic name="ENABLE_PTP_1STEP" value="0" />
+<generic name="TSTAMP_FP_WIDTH" value="4" />
+<generic name="PREAMBLE_PASSTHROUGH" value="0" />
+<generic name="ENABLE_PFC" value="0" />
+<generic name="PFC_PRIORITY_NUM" value="8" />
+<generic name="DATAPATH_OPTION" value="3" />
+<generic name="ENABLE_SUPP_ADDR" value="0" />
+<generic name="INSTANTIATE_TX_CRC" value="1" />
+<generic name="INSTANTIATE_STATISTICS" value="0" />
+<generic name="REGISTER_BASED_STATISTICS" value="0" />
+<generic name="ENABLE_1G10G_MAC" value="0" />
+<generic name="ENABLE_UNIDIRECTIONAL" value="0" />
+<generic name="AUTO_DEVICE" value="5SEE9F45C2" />
+<generic name="AUTO_DEVICE_SPEEDGRADE" value="2_H2" />
+</instance>

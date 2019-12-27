@@ -1,0 +1,79 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/DELL/Desktop/Ethernet/Ethernet_10g/simulation/modelsim
+v8rORruf5KOtu97J5AN/jB+1dFJFI5hfqv9WvYIKSv6M=
+Z1 !s110 1525137697
+!i10b 0
+!s100 IHcMCC[hLWdRW3KT]Hgh]3
+I0O7GV=aKec0nW?7fci0Mk2
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+!i8a 1690023872
+R0
+Z3 w1525137697
+8C:/Users/DELL/Desktop/Ethernet/Ethernet_10g/ipcore/Eth_10gmac/Eth_10gmac_sim/altera_eth_pause_ctrl_gen/mentor/altera_eth_pause_controller.v
+FC:/Users/DELL/Desktop/Ethernet/Ethernet_10g/ipcore/Eth_10gmac/Eth_10gmac_sim/altera_eth_pause_ctrl_gen/mentor/altera_eth_pause_controller.v
+Z4 L0 38
+Z5 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z6 !s108 1525137696.000000
+!s107 C:/Users/DELL/Desktop/Ethernet/Ethernet_10g/ipcore/Eth_10gmac/Eth_10gmac_sim/altera_eth_pause_ctrl_gen/mentor/altera_eth_pause_controller.v|
+!s90 -reportprogress|300|C:/Users/DELL/Desktop/Ethernet/Ethernet_10g/ipcore/Eth_10gmac/Eth_10gmac_sim/altera_eth_pause_ctrl_gen/mentor/altera_eth_pause_controller.v|-work|tx_eth_pause_ctrl_gen|
+!i113 1
+Z7 o-work tx_eth_pause_ctrl_gen
+Z8 tCvgOpt 0
+n22fe3a2
+vmQDprWwaJUiY2U/w80i7SSAUG6l4ZToqEK6qnesgSvs=
+!s110 1525137696
+!i10b 0
+!s100 52OgCUK>D3A];N0BdCR^o3
+InlBcjQOA[[1PE:Xb@Lo830
+R2
+!i8a 1516793536
+R0
+w1525137696
+8C:/Users/DELL/Desktop/Ethernet/Ethernet_10g/ipcore/Eth_10gmac/Eth_10gmac_sim/altera_eth_pause_ctrl_gen/mentor/altera_eth_pause_ctrl_gen.v
+FC:/Users/DELL/Desktop/Ethernet/Ethernet_10g/ipcore/Eth_10gmac/Eth_10gmac_sim/altera_eth_pause_ctrl_gen/mentor/altera_eth_pause_ctrl_gen.v
+R4
+R5
+r1
+!s85 0
+31
+R6
+!s107 C:/Users/DELL/Desktop/Ethernet/Ethernet_10g/ipcore/Eth_10gmac/Eth_10gmac_sim/altera_eth_pause_ctrl_gen/mentor/altera_eth_pause_ctrl_gen.v|
+!s90 -reportprogress|300|C:/Users/DELL/Desktop/Ethernet/Ethernet_10g/ipcore/Eth_10gmac/Eth_10gmac_sim/altera_eth_pause_ctrl_gen/mentor/altera_eth_pause_ctrl_gen.v|-work|tx_eth_pause_ctrl_gen|
+!i113 1
+R7
+R8
+nec9c66e
+vbgmp2bkGOTgFS86YHDzMJJWNIeCV2AOYmMJmVf5jdQM=
+R1
+!i10b 0
+!s100 dccmiAkRS23MacfJC3ojE0
+I00MKn]l[>I_Q]TijT;z:>0
+R2
+!i8a 486564896
+R0
+R3
+8C:/Users/DELL/Desktop/Ethernet/Ethernet_10g/ipcore/Eth_10gmac/Eth_10gmac_sim/altera_eth_pause_ctrl_gen/mentor/altera_eth_pause_gen.v
+FC:/Users/DELL/Desktop/Ethernet/Ethernet_10g/ipcore/Eth_10gmac/Eth_10gmac_sim/altera_eth_pause_ctrl_gen/mentor/altera_eth_pause_gen.v
+R4
+R5
+r1
+!s85 0
+31
+!s108 1525137697.000000
+!s107 C:/Users/DELL/Desktop/Ethernet/Ethernet_10g/ipcore/Eth_10gmac/Eth_10gmac_sim/altera_eth_pause_ctrl_gen/mentor/altera_eth_pause_gen.v|
+!s90 -reportprogress|300|C:/Users/DELL/Desktop/Ethernet/Ethernet_10g/ipcore/Eth_10gmac/Eth_10gmac_sim/altera_eth_pause_ctrl_gen/mentor/altera_eth_pause_gen.v|-work|tx_eth_pause_ctrl_gen|
+!i113 1
+R7
+R8
+n399baee

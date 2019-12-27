@@ -1,0 +1,56 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dD:/FPGA/Ethernet/V2.6/Ethernet_10g/simulation/modelsim
+vEthernet_10g
+Z1 !s110 1535539829
+!i10b 1
+!s100 G072F<7IU6dMYEhhzF3WD2
+I9aOa<i:MTQ^Cz9kBj<l353
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1535539790
+8Ethernet_10g.vo
+FEthernet_10g.vo
+L0 31
+Z3 OV;L;10.5b;63
+r1
+!s85 0
+31
+!s108 1535539827.000000
+!s107 Ethernet_10g.vo|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+.|Ethernet_10g.vo|
+!i113 1
+Z4 o-vlog01compat -work work
+!s92 -vlog01compat -work work +incdir+.
+Z5 tCvgOpt 0
+n@ethernet_10g
+vEthernet_10g_vlg_tst
+R1
+!i10b 1
+!s100 @:bPzJ65FD:MN8fGY==eH1
+IANGfoaa`Smg@1zh@jk4_J0
+R2
+R0
+w1535537491
+8D:/FPGA/Ethernet/V2.6/Ethernet_10g/simulation/modelsim/Ethernet_10g.vt
+FD:/FPGA/Ethernet/V2.6/Ethernet_10g/simulation/modelsim/Ethernet_10g.vt
+L0 28
+R3
+r1
+!s85 0
+31
+!s108 1535539829.000000
+!s107 D:/FPGA/Ethernet/V2.6/Ethernet_10g/simulation/modelsim/Ethernet_10g.vt|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/FPGA/Ethernet/V2.6/Ethernet_10g/simulation/modelsim|D:/FPGA/Ethernet/V2.6/Ethernet_10g/simulation/modelsim/Ethernet_10g.vt|
+!i113 1
+R4
+!s92 -vlog01compat -work work +incdir+D:/FPGA/Ethernet/V2.6/Ethernet_10g/simulation/modelsim
+R5
+n@ethernet_10g_vlg_tst

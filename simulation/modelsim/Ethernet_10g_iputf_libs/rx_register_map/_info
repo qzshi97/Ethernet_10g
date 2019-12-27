@@ -1,0 +1,54 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/DELL/Desktop/Ethernet/Ethernet_10g/simulation/modelsim
+valtera_avalon_st_clock_crosser
+!s110 1525137688
+!i10b 1
+!s100 YbU`iK^TYJ_9Hz`CZekjQ3
+INPk<7XD26kIRA7RGC`c9R1
+Z1 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1525073313
+8C:/Users/DELL/Desktop/Ethernet/Ethernet_10g/ipcore/Eth_10gmac/Eth_10gmac_sim/altera_eth_10g_rx_register_map/altera_avalon_st_clock_crosser.v
+FC:/Users/DELL/Desktop/Ethernet/Ethernet_10g/ipcore/Eth_10gmac/Eth_10gmac_sim/altera_eth_10g_rx_register_map/altera_avalon_st_clock_crosser.v
+L0 22
+Z2 OV;L;10.5b;63
+r1
+!s85 0
+31
+!s108 1525137688.000000
+!s107 C:/Users/DELL/Desktop/Ethernet/Ethernet_10g/ipcore/Eth_10gmac/Eth_10gmac_sim/altera_eth_10g_rx_register_map/altera_avalon_st_clock_crosser.v|
+!s90 -reportprogress|300|C:/Users/DELL/Desktop/Ethernet/Ethernet_10g/ipcore/Eth_10gmac/Eth_10gmac_sim/altera_eth_10g_rx_register_map/altera_avalon_st_clock_crosser.v|-work|rx_register_map|
+!i113 1
+Z3 o-work rx_register_map
+Z4 tCvgOpt 0
+vzsM9XiqWFtY5A3Fjtv119WYgDwVu3B4bArqINP96L38=
+!s110 1525137687
+!i10b 0
+!s100 :j_b=YcT[o=MKja5R^kjO2
+I;FVPVn[Dz9YUP]zd8z4<W2
+R1
+!i8a 1151707536
+R0
+w1525137687
+8C:/Users/DELL/Desktop/Ethernet/Ethernet_10g/ipcore/Eth_10gmac/Eth_10gmac_sim/altera_eth_10g_rx_register_map/mentor/altera_eth_10g_rx_register_map.v
+FC:/Users/DELL/Desktop/Ethernet/Ethernet_10g/ipcore/Eth_10gmac/Eth_10gmac_sim/altera_eth_10g_rx_register_map/mentor/altera_eth_10g_rx_register_map.v
+L0 38
+R2
+r1
+!s85 0
+31
+!s108 1525137687.000000
+!s107 C:/Users/DELL/Desktop/Ethernet/Ethernet_10g/ipcore/Eth_10gmac/Eth_10gmac_sim/altera_eth_10g_rx_register_map/mentor/altera_eth_10g_rx_register_map.v|
+!s90 -reportprogress|300|C:/Users/DELL/Desktop/Ethernet/Ethernet_10g/ipcore/Eth_10gmac/Eth_10gmac_sim/altera_eth_10g_rx_register_map/mentor/altera_eth_10g_rx_register_map.v|-work|rx_register_map|
+!i113 1
+R3
+R4
+n9f9a8a0

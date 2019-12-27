@@ -1,0 +1,79 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/DELL/Desktop/Ethernet/Ethernet_10g/simulation/modelsim
+vwbUeHECuXdT12LyI9SWTYg==
+!s110 1525072651
+!i10b 0
+!s100 ^K2LfJWiSg]b^oi1iPLag0
+IXG]ReWUCI86AT5@LGA4m32
+Z1 VDg1SIo80bB@j0V0VzS_@n1
+!i8a 426040608
+R0
+w1525072651
+8C:/Users/DELL/Desktop/Ethernet/Ethernet_10g/ipcore/Eth_10gmac/Eth_10gmac_sim/altera_eth_crc/mentor/altera_eth_crc.v
+FC:/Users/DELL/Desktop/Ethernet/Ethernet_10g/ipcore/Eth_10gmac/Eth_10gmac_sim/altera_eth_crc/mentor/altera_eth_crc.v
+Z2 L0 38
+Z3 OV;L;10.5b;63
+r1
+!s85 0
+31
+!s108 1525072650.000000
+!s107 C:/Users/DELL/Desktop/Ethernet/Ethernet_10g/ipcore/Eth_10gmac/Eth_10gmac_sim/altera_eth_crc/mentor/altera_eth_crc.v|
+!s90 -reportprogress|300|C:/Users/DELL/Desktop/Ethernet/Ethernet_10g/ipcore/Eth_10gmac/Eth_10gmac_sim/altera_eth_crc/mentor/altera_eth_crc.v|-work|rx_eth_crc_checker|
+!i113 1
+Z4 o-work rx_eth_crc_checker
+Z5 tCvgOpt 0
+nf02db53
+vSyu9jDt72tHSgFpqjPIekA==
+Z6 !s110 1525072652
+!i10b 0
+!s100 g38HO5ThFfaTI1NJlio492
+I;BFL6SYd7BX_Ra=COh`>D2
+R1
+!i8a 385918752
+R0
+Z7 w1525072652
+8C:/Users/DELL/Desktop/Ethernet/Ethernet_10g/ipcore/Eth_10gmac/Eth_10gmac_sim/altera_eth_crc/mentor/crc32.v
+FC:/Users/DELL/Desktop/Ethernet/Ethernet_10g/ipcore/Eth_10gmac/Eth_10gmac_sim/altera_eth_crc/mentor/crc32.v
+R2
+R3
+r1
+!s85 0
+31
+!s108 1525072651.000000
+!s107 C:/Users/DELL/Desktop/Ethernet/Ethernet_10g/ipcore/Eth_10gmac/Eth_10gmac_sim/altera_eth_crc/mentor/crc32.v|
+!s90 -reportprogress|300|C:/Users/DELL/Desktop/Ethernet/Ethernet_10g/ipcore/Eth_10gmac/Eth_10gmac_sim/altera_eth_crc/mentor/crc32.v|-work|rx_eth_crc_checker|
+!i113 1
+R4
+R5
+n6a8662
+vILAu320a2YgFRLE1Gjlrhg==
+R6
+!i10b 0
+!s100 4K`TI;SCOSeAUz0lZfI8@2
+I^?XKM2k1A]Tb>B722chIB3
+R1
+!i8a 849340128
+R0
+R7
+8C:/Users/DELL/Desktop/Ethernet/Ethernet_10g/ipcore/Eth_10gmac/Eth_10gmac_sim/altera_eth_crc/mentor/gf_mult32_kc.v
+FC:/Users/DELL/Desktop/Ethernet/Ethernet_10g/ipcore/Eth_10gmac/Eth_10gmac_sim/altera_eth_crc/mentor/gf_mult32_kc.v
+R2
+R3
+r1
+!s85 0
+31
+!s108 1525072652.000000
+!s107 C:/Users/DELL/Desktop/Ethernet/Ethernet_10g/ipcore/Eth_10gmac/Eth_10gmac_sim/altera_eth_crc/mentor/gf_mult32_kc.v|
+!s90 -reportprogress|300|C:/Users/DELL/Desktop/Ethernet/Ethernet_10g/ipcore/Eth_10gmac/Eth_10gmac_sim/altera_eth_crc/mentor/gf_mult32_kc.v|-work|rx_eth_crc_checker|
+!i113 1
+R4
+R5
+n5aa22d3

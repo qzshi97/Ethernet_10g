@@ -1,0 +1,540 @@
+# Reading C:/intelFPGA/17.1/modelsim_ase/tcl/vsim/pref.tcl
+# ERROR: No extended dataflow license exists
+# do Ethernet_10g_run_msim_gate_verilog.do
+# if {[file exists gate_work]} {
+# 	vdel -lib gate_work -all
+# }
+# vlib gate_work
+# vmap work gate_work
+# Model Technology ModelSim - Intel FPGA Edition vmap 10.5b Lib Mapping Utility 2016.10 Oct  5 2016
+# vmap work gate_work 
+# Copying C:/intelFPGA/17.1/modelsim_ase/win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# 
+# vlog -vlog01compat -work work +incdir+. {Ethernet_10g.vo}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 18:50:27 on Aug 29,2018
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+." Ethernet_10g.vo 
+# -- Compiling module Ethernet_10g
+# 
+# Top level modules:
+# 	Ethernet_10g
+# End time: 18:50:29 on Aug 29,2018, Elapsed time: 0:00:02
+# Errors: 0, Warnings: 0
+# 
+# vlog -vlog01compat -work work +incdir+D:/FPGA/Ethernet/V2.6/Ethernet_10g/simulation/modelsim {D:/FPGA/Ethernet/V2.6/Ethernet_10g/simulation/modelsim/Ethernet_10g.vt}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 18:50:29 on Aug 29,2018
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+D:/FPGA/Ethernet/V2.6/Ethernet_10g/simulation/modelsim" D:/FPGA/Ethernet/V2.6/Ethernet_10g/simulation/modelsim/Ethernet_10g.vt 
+# -- Compiling module Ethernet_10g_vlg_tst
+# 
+# Top level modules:
+# 	Ethernet_10g_vlg_tst
+# End time: 18:50:29 on Aug 29,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vsim -t 1ps +transport_int_delays +transport_path_delays -L altera_ver -L altera_lnsim_ver -L stratixv_ver -L lpm_ver -L sgate_ver -L stratixv_hssi_ver -L altera_mf_ver -L stratixv_pcie_hip_ver -L gate_work -L work -voptargs="+acc"  Ethernet_10g_vlg_tst
+# vsim -t 1ps "+transport_int_delays" "+transport_path_delays" -L altera_ver -L altera_lnsim_ver -L stratixv_ver -L lpm_ver -L sgate_ver -L stratixv_hssi_ver -L altera_mf_ver -L stratixv_pcie_hip_ver -L gate_work -L work -voptargs=""+acc"" Ethernet_10g_vlg_tst 
+# Start time: 18:50:29 on Aug 29,2018
+# Loading work.Ethernet_10g_vlg_tst
+# Loading work.Ethernet_10g
+# Loading altera_ver.dffeas
+# Loading sv_std.std
+# Loading altera_lnsim_ver.generic_m20k
+# Loading altera_lnsim_ver.altera_lnsim_functions
+# Loading altera_lnsim_ver.common_28nm_ram_block
+# Loading altera_lnsim_ver.common_28nm_ram_register
+# Loading altera_lnsim_ver.common_28nm_ram_pulse_generator
+# Loading altera_lnsim_ver.generic_28nm_hp_mlab_cell_impl
+# Loading altera_lnsim_ver.common_porta_registers
+# Loading altera_lnsim_ver.common_28nm_mlab_cell_core
+# Loading altera_lnsim_ver.common_28nm_mlab_cell_pulse_generator
+# Loading altera_lnsim_ver.altera_pll_reconfig_tasks
+# Loading altera_lnsim_ver.generic_device_pll
+# Loading altera_lnsim_ver.altera_generic_pll_functions
+# Loading altera_lnsim_ver.generic_pll
+# Loading altera_lnsim_ver.generic_cdr
+# ** Warning: (vsim-3017) D:/FPGA/Ethernet/V2.6/Ethernet_10g/simulation/modelsim/Ethernet_10g.vt(49): [TFMPC] - Too few port connections. Expected 15, found 12.
+#    Time: 0 ps  Iteration: 0  Instance: /Ethernet_10g_vlg_tst/i1 File: Ethernet_10g.vo
+# ** Warning: (vsim-3722) D:/FPGA/Ethernet/V2.6/Ethernet_10g/simulation/modelsim/Ethernet_10g.vt(49): [TFMPC] - Missing connection for port '\tx_serial_data_0_sig(n) '.
+# ** Warning: (vsim-3722) D:/FPGA/Ethernet/V2.6/Ethernet_10g/simulation/modelsim/Ethernet_10g.vt(49): [TFMPC] - Missing connection for port '\pll_ref_clk_sig(n) '.
+# ** Warning: (vsim-3722) D:/FPGA/Ethernet/V2.6/Ethernet_10g/simulation/modelsim/Ethernet_10g.vt(49): [TFMPC] - Missing connection for port '\rx_serial_data_0_sig(n) '.
+# Loading altera_ver.PRIM_GDFF_LOW
+# ** Warning: (vsim-3017) Ethernet_10g.vo(17369): [TFMPC] - Too few port connections. Expected 24, found 23.
+#    Time: 0 ps  Iteration: 0  Instance: /Ethernet_10g_vlg_tst/i1/\pll_inst|pll_inst|altera_pll_i|general[0].gpll~FRACTIONAL_PLL  File: nofile
+# ** Warning: (vsim-3722) Ethernet_10g.vo(17369): [TFMPC] - Missing connection for port 'vsspl'.
+# ** Warning: (vsim-3017) <protected>(<protected>): [TFMPC] - Too few port connections. Expected <protected>, found <protected>.
+#    Time: 0 ps  Iteration: 0  Protected: /Ethernet_10g_vlg_tst/i1/\pll_inst|pll_inst|altera_pll_i|general[0].gpll~PLL_RECONFIG /<protected> File: nofile
+# ** Warning: (vsim-3722) <protected>(<protected>): [TFMPC] - Missing connection for port '<protected>'.
+# ** Warning: (vsim-3017) Ethernet_10g.vo(18116): [TFMPC] - Too few port connections. Expected 24, found 23.
+#    Time: 0 ps  Iteration: 0  Instance: /Ethernet_10g_vlg_tst/i1/\Eth_10g_top_inst|Eth_10g_mac_inst|Eth_10gbaser_phy_inst|eth_10gbaser_phy_inst|xv_xcvr_10gbaser_nr_inst|ch[0].sv_xcvr_10gbaser_native_inst|g_fpll.altera_pll_156M~FRACTIONAL_PLL  File: nofile
+# ** Warning: (vsim-3722) Ethernet_10g.vo(18116): [TFMPC] - Missing connection for port 'vsspl'.
+# ** Warning: (vsim-3017) <protected>(<protected>): [TFMPC] - Too few port connections. Expected <protected>, found <protected>.
+#    Time: 0 ps  Iteration: 0  Protected: /Ethernet_10g_vlg_tst/i1/\Eth_10g_top_inst|Eth_10g_mac_inst|Eth_10gbaser_phy_inst|eth_10gbaser_phy_inst|xv_xcvr_10gbaser_nr_inst|ch[0].sv_xcvr_10gbaser_native_inst|g_fpll.altera_pll_156M~PLL_RECONFIG /<protected> File: nofile
+# ** Warning: (vsim-3722) <protected>(<protected>): [TFMPC] - Missing connection for port '<protected>'.
+# ** Warning: (vsim-3017) <protected>(<protected>): [TFMPC] - Too few port connections. Expected <protected>, found <protected>.
+#    Time: 0 ps  Iteration: 0  Protected: /Ethernet_10g_vlg_tst/i1/\Eth_10g_top_inst|Eth_10g_mac_inst|Eth_10gbaser_phy_inst|eth_10gbaser_phy_inst|xv_xcvr_10gbaser_nr_inst|ch[0].sv_xcvr_10gbaser_native_inst|altera_pll_5G|pll[0].pll.cmu_pll.tx_pll /<protected>/<protected>/<protected> File: /build/swbuild/SJ/nightly/17.1std/590/l64/work/modelsim/eda/sim_lib/altera_lnsim.sv
+# ** Warning: (vsim-3722) <protected>(<protected>): [TFMPC] - Missing connection for port '<protected>'.
+# ** Warning: (vsim-3722) <protected>(<protected>): [TFMPC] - Missing connection for port '<protected>'.
+# ** Warning: (vsim-3722) <protected>(<protected>): [TFMPC] - Missing connection for port '<protected>'.
+# ** Warning: (vsim-3722) <protected>(<protected>): [TFMPC] - Missing connection for port '<protected>'.
+# ** Warning: (vsim-3722) <protected>(<protected>): [TFMPC] - Missing connection for port '<protected>'.
+# ** Warning: (vsim-3722) <protected>(<protected>): [TFMPC] - Missing connection for port '<protected>'.
+# ** Warning: (vsim-3722) <protected>(<protected>): [TFMPC] - Missing connection for port '<protected>'.
+# ** Warning: (vsim-3722) <protected>(<protected>): [TFMPC] - Missing connection for port '<protected>'.
+# ** Warning: (vsim-3017) Ethernet_10g.vo(74847): [TFMPC] - Too few port connections. Expected 97, found 95.
+#    Time: 0 ps  Iteration: 0  Instance: /Ethernet_10g_vlg_tst/i1/\Eth_10g_top_inst|Eth_10g_mac_inst|Eth_10gbaser_phy_inst|eth_10gbaser_phy_inst|xv_xcvr_10gbaser_nr_inst|ch[0].sv_xcvr_10gbaser_native_inst|native_inst|inst_sv_pcs|ch[0].inst_sv_pcs_ch|inst_sv_hssi_tx_pld_pcs_interface|wys  File: nofile
+# ** Warning: (vsim-3722) Ethernet_10g.vo(74847): [TFMPC] - Missing connection for port 'asynchdatain'.
+# ** Warning: (vsim-3722) Ethernet_10g.vo(74847): [TFMPC] - Missing connection for port 'reset'.
+# ** Warning: (vsim-3017) Ethernet_10g.vo(75035): [TFMPC] - Too few port connections. Expected 60, found 59.
+#    Time: 0 ps  Iteration: 0  Instance: /Ethernet_10g_vlg_tst/i1/\Eth_10g_top_inst|Eth_10g_mac_inst|Eth_10gbaser_phy_inst|eth_10gbaser_phy_inst|xv_xcvr_10gbaser_nr_inst|ch[0].sv_xcvr_10gbaser_native_inst|native_inst|inst_sv_pcs|ch[0].inst_sv_pcs_ch|inst_sv_hssi_10g_tx_pcs|wys  File: nofile
+# ** Warning: (vsim-3722) Ethernet_10g.vo(75035): [TFMPC] - Missing connection for port 'syncdatain'.
+# ** Warning: (vsim-3017) Ethernet_10g.vo(75375): [TFMPC] - Too few port connections. Expected 44, found 42.
+#    Time: 0 ps  Iteration: 0  Instance: /Ethernet_10g_vlg_tst/i1/\Eth_10g_top_inst|Eth_10g_mac_inst|Eth_10gbaser_phy_inst|eth_10gbaser_phy_inst|xv_xcvr_10gbaser_nr_inst|ch[0].sv_xcvr_10gbaser_native_inst|native_inst|inst_sv_pcs|ch[0].inst_sv_pcs_ch|inst_sv_hssi_rx_pcs_pma_interface|wys  File: nofile
+# ** Warning: (vsim-3722) Ethernet_10g.vo(75375): [TFMPC] - Missing connection for port 'asynchdatain'.
+# ** Warning: (vsim-3722) Ethernet_10g.vo(75375): [TFMPC] - Missing connection for port 'reset'.
+# ** Warning: (vsim-3017) Ethernet_10g.vo(75534): [TFMPC] - Too few port connections. Expected 62, found 61.
+#    Time: 0 ps  Iteration: 0  Instance: /Ethernet_10g_vlg_tst/i1/\Eth_10g_top_inst|Eth_10g_mac_inst|Eth_10gbaser_phy_inst|eth_10gbaser_phy_inst|xv_xcvr_10gbaser_nr_inst|ch[0].sv_xcvr_10gbaser_native_inst|native_inst|inst_sv_pcs|ch[0].inst_sv_pcs_ch|inst_sv_hssi_10g_rx_pcs|wys  File: nofile
+# ** Warning: (vsim-3722) Ethernet_10g.vo(75534): [TFMPC] - Missing connection for port 'syncdatain'.
+# ** Warning: (vsim-3015) <protected>(<protected>): [PCDPC] - Port size (<protected>) does not match connection size (<protected>) for <protected>.<protected>
+#    Time: 0 ps  Iteration: 0  Protected: /Ethernet_10g_vlg_tst/i1/\Eth_10g_top_inst|Eth_10g_mac_inst|Eth_10gbaser_phy_inst|eth_10gbaser_phy_inst|xv_xcvr_10gbaser_nr_inst|ch[0].sv_xcvr_10gbaser_native_inst|native_inst|inst_sv_pcs|ch[0].inst_sv_pcs_ch|inst_sv_hssi_10g_rx_pcs|wys /<protected>/<protected>/<protected> File: nofile
+# ** Warning: (vsim-3015) <protected>(<protected>): [PCDPC] - Port size (<protected>) does not match connection size (<protected>) for <protected>.<protected>
+#    Time: 0 ps  Iteration: 0  Protected: /Ethernet_10g_vlg_tst/i1/\Eth_10g_top_inst|Eth_10g_mac_inst|Eth_10gbaser_phy_inst|eth_10gbaser_phy_inst|xv_xcvr_10gbaser_nr_inst|ch[0].sv_xcvr_10gbaser_native_inst|native_inst|inst_sv_pcs|ch[0].inst_sv_pcs_ch|inst_sv_hssi_10g_rx_pcs|wys /<protected>/<protected>/<protected> File: nofile
+# ** Warning: (vsim-3017) Ethernet_10g.vo(76001): [TFMPC] - Too few port connections. Expected 179, found 177.
+#    Time: 0 ps  Iteration: 0  Instance: /Ethernet_10g_vlg_tst/i1/\Eth_10g_top_inst|Eth_10g_mac_inst|Eth_10gbaser_phy_inst|eth_10gbaser_phy_inst|xv_xcvr_10gbaser_nr_inst|ch[0].sv_xcvr_10gbaser_native_inst|native_inst|inst_sv_pcs|ch[0].inst_sv_pcs_ch|inst_sv_hssi_rx_pld_pcs_interface|wys  File: nofile
+# ** Warning: (vsim-3722) Ethernet_10g.vo(76001): [TFMPC] - Missing connection for port 'asynchdatain'.
+# ** Warning: (vsim-3722) Ethernet_10g.vo(76001): [TFMPC] - Missing connection for port 'reset'.
+# ** Warning: (vsim-3017) Ethernet_10g.vo(126765): [TFMPC] - Too few port connections. Expected 32, found 30.
+#    Time: 0 ps  Iteration: 0  Instance: /Ethernet_10g_vlg_tst/i1/\Eth_10g_top_inst|Eth_10g_mac_inst|Eth_10gbaser_phy_inst|eth_10gbaser_phy_inst|xv_xcvr_10gbaser_nr_inst|ch[0].sv_xcvr_10gbaser_native_inst|native_inst|inst_sv_pcs|ch[0].inst_sv_pcs_ch|inst_sv_hssi_tx_pcs_pma_interface|wys  File: nofile
+# ** Warning: (vsim-3722) Ethernet_10g.vo(126765): [TFMPC] - Missing connection for port 'asynchdatain'.
+# ** Warning: (vsim-3722) Ethernet_10g.vo(126765): [TFMPC] - Missing connection for port 'reset'.
+# ** Warning: (vsim-3015) <protected>(<protected>): [PCDPC] - Port size (<protected>) does not match connection size (<protected>) for <protected>.<protected>
+#    Time: 0 ps  Iteration: 0  Protected: /Ethernet_10g_vlg_tst/i1/\Eth_10g_top_inst|Eth_10g_mac_inst|Eth_10gbaser_phy_inst|eth_10gbaser_phy_inst|xv_xcvr_10gbaser_nr_inst|ch[0].sv_xcvr_10gbaser_native_inst|native_inst|inst_sv_pma|tx_pma.sv_tx_pma_inst|tx_pma_insts[0].sv_tx_pma_ch_inst|tx_pma_ch.tx_cgb /<protected>/<protected>/<protected>/<protected> File: nofile
+# ** Warning: (vsim-3015) <protected>(<protected>): [PCDPC] - Port size (<protected>) does not match connection size (<protected>) for <protected>.<protected>
+#    Time: 0 ps  Iteration: 0  Protected: /Ethernet_10g_vlg_tst/i1/\Eth_10g_top_inst|Eth_10g_mac_inst|Eth_10gbaser_phy_inst|eth_10gbaser_phy_inst|xv_xcvr_10gbaser_nr_inst|ch[0].sv_xcvr_10gbaser_native_inst|native_inst|inst_sv_pma|tx_pma.sv_tx_pma_inst|tx_pma_insts[0].sv_tx_pma_ch_inst|tx_pma_ch.tx_cgb /<protected>/<protected>/<protected>/<protected> File: nofile
+# ** Warning: (vsim-3015) <protected>(<protected>): [PCDPC] - Port size (<protected>) does not match connection size (<protected>) for <protected>.<protected>
+#    Time: 0 ps  Iteration: 0  Protected: /Ethernet_10g_vlg_tst/i1/\Eth_10g_top_inst|Eth_10g_mac_inst|Eth_10gbaser_phy_inst|eth_10gbaser_phy_inst|xv_xcvr_10gbaser_nr_inst|ch[0].sv_xcvr_10gbaser_native_inst|native_inst|inst_sv_pma|tx_pma.sv_tx_pma_inst|tx_pma_insts[0].sv_tx_pma_ch_inst|tx_pma_ch.tx_cgb /<protected>/<protected>/<protected>/<protected> File: nofile
+# ** Warning: (vsim-3015) <protected>(<protected>): [PCDPC] - Port size (<protected>) does not match connection size (<protected>) for <protected>.<protected>
+#    Time: 0 ps  Iteration: 0  Protected: /Ethernet_10g_vlg_tst/i1/\Eth_10g_top_inst|Eth_10g_mac_inst|Eth_10gbaser_phy_inst|eth_10gbaser_phy_inst|xv_xcvr_10gbaser_nr_inst|ch[0].sv_xcvr_10gbaser_native_inst|native_inst|inst_sv_pma|tx_pma.sv_tx_pma_inst|tx_pma_insts[0].sv_tx_pma_ch_inst|tx_pma_ch.tx_cgb /<protected>/<protected>/<protected>/<protected> File: nofile
+# ** Warning: (vsim-3015) <protected>(<protected>): [PCDPC] - Port size (<protected>) does not match connection size (<protected>) for <protected>.<protected>
+#    Time: 0 ps  Iteration: 0  Protected: /Ethernet_10g_vlg_tst/i1/\Eth_10g_top_inst|Eth_10g_mac_inst|Eth_10gbaser_phy_inst|eth_10gbaser_phy_inst|xv_xcvr_10gbaser_nr_inst|ch[0].sv_xcvr_10gbaser_native_inst|native_inst|inst_sv_pma|tx_pma.sv_tx_pma_inst|tx_pma_insts[0].sv_tx_pma_ch_inst|tx_pma_ch.tx_cgb /<protected>/<protected>/<protected>/<protected> File: nofile
+# ** Warning: (vsim-3015) <protected>(<protected>): [PCDPC] - Port size (<protected>) does not match connection size (<protected>) for <protected>.<protected>
+#    Time: 0 ps  Iteration: 0  Protected: /Ethernet_10g_vlg_tst/i1/\Eth_10g_top_inst|Eth_10g_mac_inst|Eth_10gbaser_phy_inst|eth_10gbaser_phy_inst|xv_xcvr_10gbaser_nr_inst|ch[0].sv_xcvr_10gbaser_native_inst|native_inst|inst_sv_pma|tx_pma.sv_tx_pma_inst|tx_pma_insts[0].sv_tx_pma_ch_inst|tx_pma_ch.tx_cgb /<protected>/<protected>/<protected>/<protected> File: nofile
+# ** Warning: (vsim-3015) <protected>(<protected>): [PCDPC] - Port size (<protected>) does not match connection size (<protected>) for <protected>.<protected>
+#    Time: 0 ps  Iteration: 0  Protected: /Ethernet_10g_vlg_tst/i1/\Eth_10g_top_inst|Eth_10g_mac_inst|Eth_10gbaser_phy_inst|eth_10gbaser_phy_inst|xv_xcvr_10gbaser_nr_inst|ch[0].sv_xcvr_10gbaser_native_inst|native_inst|inst_sv_pma|tx_pma.sv_tx_pma_inst|tx_pma_insts[0].sv_tx_pma_ch_inst|tx_pma_ch.tx_cgb /<protected>/<protected>/<protected>/<protected> File: nofile
+# ** Warning: (vsim-3017) Ethernet_10g.vo(127193): [TFMPC] - Too few port connections. Expected 186, found 185.
+#    Time: 0 ps  Iteration: 0  Instance: /Ethernet_10g_vlg_tst/i1/\Eth_10g_top_inst|Eth_10g_mac_inst|Eth_10gbaser_phy_inst|eth_10gbaser_phy_inst|xv_xcvr_10gbaser_nr_inst|ch[0].sv_xcvr_10gbaser_native_inst|native_inst|inst_sv_pcs|ch[0].inst_sv_pcs_ch|inst_sv_hssi_common_pcs_pma_interface|wys  File: nofile
+# ** Warning: (vsim-3722) Ethernet_10g.vo(127193): [TFMPC] - Missing connection for port 'asynchdatain'.
+# ** Warning: (vsim-3017) <protected>(<protected>): [TFMPC] - Too few port connections. Expected <protected>, found <protected>.
+#    Time: 0 ps  Iteration: 0  Protected: /Ethernet_10g_vlg_tst/i1/\Eth_10g_top_inst|Eth_10g_mac_inst|Eth_10gbaser_phy_inst|eth_10gbaser_phy_inst|xv_xcvr_10gbaser_nr_inst|ch[0].sv_xcvr_10gbaser_native_inst|native_inst|inst_sv_pma|rx_pma.sv_rx_pma_inst|rx_pmas[0].rx_pma.rx_pma_buf /<protected>/<protected>/<protected> File: nofile
+# ** Warning: (vsim-3722) <protected>(<protected>): [TFMPC] - Missing connection for port '<protected>'.
+# ** Warning: (vsim-3722) <protected>(<protected>): [TFMPC] - Missing connection for port '<protected>'.
+# ** Warning: (vsim-3722) <protected>(<protected>): [TFMPC] - Missing connection for port '<protected>'.
+# ** Warning: (vsim-3722) <protected>(<protected>): [TFMPC] - Missing connection for port '<protected>'.
+# ** Warning: (vsim-3722) <protected>(<protected>): [TFMPC] - Missing connection for port '<protected>'.
+# ** Warning: (vsim-3015) <protected>(<protected>): [PCDPC] - Port size (<protected>) does not match connection size (<protected>) for <protected>.<protected>
+#    Time: 0 ps  Iteration: 0  Protected: /Ethernet_10g_vlg_tst/i1/\Eth_10g_top_inst|Eth_10g_mac_inst|Eth_10gbaser_phy_inst|eth_10gbaser_phy_inst|xv_xcvr_10gbaser_nr_inst|ch[0].sv_xcvr_10gbaser_native_inst|native_inst|inst_sv_pma|tx_pma.sv_tx_pma_inst|tx_pma_insts[0].sv_tx_pma_ch_inst|tx_pma_ch.tx_pma_buf.tx_pma_buf /<protected>/<protected>/<protected>/<protected> File: nofile
+# ** Warning: (vsim-3017) Ethernet_10g.vo(127740): [TFMPC] - Too few port connections. Expected 126, found 125.
+#    Time: 0 ps  Iteration: 0  Instance: /Ethernet_10g_vlg_tst/i1/\Eth_10g_top_inst|Eth_10g_mac_inst|Eth_10gbaser_phy_inst|eth_10gbaser_phy_inst|xv_xcvr_10gbaser_nr_inst|ch[0].sv_xcvr_10gbaser_native_inst|native_inst|inst_sv_pcs|ch[0].inst_sv_pcs_ch|inst_sv_hssi_common_pld_pcs_interface|wys  File: nofile
+# ** Warning: (vsim-3722) Ethernet_10g.vo(127740): [TFMPC] - Missing connection for port 'asynchdatain'.
+# ** Warning: (vsim-3017) Ethernet_10g.vo(128061): [TFMPC] - Too few port connections. Expected 38, found 36.
+#    Time: 0 ps  Iteration: 0  Instance: /Ethernet_10g_vlg_tst/i1/\Eth_10g_top_inst|Eth_10g_mac_inst|Eth_10gbaser_phy_inst|eth_10gbaser_phy_inst|xv_xcvr_10gbaser_nr_inst|ch[0].sv_xcvr_10gbaser_native_inst|native_inst|inst_sv_pma|rx_pma.sv_rx_pma_inst|rx_pmas[0].rx_pma.cdr_clkmux_nopcie.cdr_refclk_mux0  File: nofile
+# ** Warning: (vsim-3722) Ethernet_10g.vo(128061): [TFMPC] - Missing connection for port 'refclklc'.
+# ** Warning: (vsim-3722) Ethernet_10g.vo(128061): [TFMPC] - Missing connection for port 'occalen'.
+# ** Warning: (vsim-3017) Ethernet_10g.vo(128162): [TFMPC] - Too few port connections. Expected 38, found 36.
+#    Time: 0 ps  Iteration: 0  Instance: /Ethernet_10g_vlg_tst/i1/\Eth_10g_top_inst|Eth_10g_mac_inst|Eth_10gbaser_phy_inst|eth_10gbaser_phy_inst|xv_xcvr_10gbaser_nr_inst|ch[0].sv_xcvr_10gbaser_native_inst|altera_pll_5G|pll[0].pll.cmu_pll.pll_mux.pll_refclk_select_mux  File: nofile
+# ** Warning: (vsim-3722) Ethernet_10g.vo(128162): [TFMPC] - Missing connection for port 'refclklc'.
+# ** Warning: (vsim-3722) Ethernet_10g.vo(128162): [TFMPC] - Missing connection for port 'occalen'.
+# ** Warning: Design size of 36334 statements exceeds ModelSim-Intel FPGA Starter Edition recommended capacity.
+# Expect performance to be adversely affected.
+# 
+# add wave *
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body.tree
+# run -all
+# 
+# Warning: por to CB BFM is not connected, internal por is used.
+# 
+# Info: =================================================
+# Info:           Generic PLL Summary
+# Info: =================================================
+# Time scale of (Ethernet_10g_vlg_tst.i1.\pll_inst|pll_inst|altera_pll_i|general[0].gpll~FRACTIONAL_PLL .<protected>.<protected>.<protected>.inst_pll_phase_0.no_need_to_gen) is  1ps /  1ps
+# Info: hierarchical_name = Ethernet_10g_vlg_tst.i1.\pll_inst|pll_inst|altera_pll_i|general[0].gpll~FRACTIONAL_PLL .<protected>.<protected>.<protected>.inst_pll_phase_0.no_need_to_gen
+# Info: reference_clock_frequency = 50.0 mhz
+# Info: output_clock_frequency = 300.0 mhz
+# Info: phase_shift = 0 ps
+# Info: duty_cycle = 50
+# Info: sim_additional_refclk_cycles_to_lock = 0
+# Info: output_clock_high_period = 1666.666667
+# Info: output_clock_low_period = 1666.666667
+# Info: =================================================
+# Info:           Generic PLL Summary
+# Info: =================================================
+# Time scale of (Ethernet_10g_vlg_tst.i1.\pll_inst|pll_inst|altera_pll_i|general[0].gpll~FRACTIONAL_PLL .<protected>.<protected>.<protected>.inst_pll_phase_1.no_need_to_gen) is  1ps /  1ps
+# Info: hierarchical_name = Ethernet_10g_vlg_tst.i1.\pll_inst|pll_inst|altera_pll_i|general[0].gpll~FRACTIONAL_PLL .<protected>.<protected>.<protected>.inst_pll_phase_1.no_need_to_gen
+# Info: reference_clock_frequency = 50.0 mhz
+# Info: output_clock_frequency = 300.0 mhz
+# Info: phase_shift = 416 ps
+# Info: duty_cycle = 50
+# Info: sim_additional_refclk_cycles_to_lock = 0
+# Info: output_clock_high_period = 1666.666667
+# Info: output_clock_low_period = 1666.666667
+# Info: =================================================
+# Info:           Generic PLL Summary
+# Info: =================================================
+# Time scale of (Ethernet_10g_vlg_tst.i1.\pll_inst|pll_inst|altera_pll_i|general[0].gpll~FRACTIONAL_PLL .<protected>.<protected>.<protected>.inst_pll_phase_2.no_need_to_gen) is  1ps /  1ps
+# Info: hierarchical_name = Ethernet_10g_vlg_tst.i1.\pll_inst|pll_inst|altera_pll_i|general[0].gpll~FRACTIONAL_PLL .<protected>.<protected>.<protected>.inst_pll_phase_2.no_need_to_gen
+# Info: reference_clock_frequency = 50.0 mhz
+# Info: output_clock_frequency = 300.0 mhz
+# Info: phase_shift = 832 ps
+# Info: duty_cycle = 50
+# Info: sim_additional_refclk_cycles_to_lock = 0
+# Info: output_clock_high_period = 1666.666667
+# Info: output_clock_low_period = 1666.666667
+# Info: =================================================
+# Info:           Generic PLL Summary
+# Info: =================================================
+# Time scale of (Ethernet_10g_vlg_tst.i1.\pll_inst|pll_inst|altera_pll_i|general[0].gpll~FRACTIONAL_PLL .<protected>.<protected>.<protected>.inst_pll_phase_3.no_need_to_gen) is  1ps /  1ps
+# Info: hierarchical_name = Ethernet_10g_vlg_tst.i1.\pll_inst|pll_inst|altera_pll_i|general[0].gpll~FRACTIONAL_PLL .<protected>.<protected>.<protected>.inst_pll_phase_3.no_need_to_gen
+# Info: reference_clock_frequency = 50.0 mhz
+# Info: output_clock_frequency = 300.0 mhz
+# Info: phase_shift = 1248 ps
+# Info: duty_cycle = 50
+# Info: sim_additional_refclk_cycles_to_lock = 0
+# Info: output_clock_high_period = 1666.666667
+# Info: output_clock_low_period = 1666.666667
+# 
+# Warning: por to CB BFM is not connected, internal por is used.
+# 
+# module stratixv_hssi_refclk_divider : simulation model silicon_rev = "reve"
+# 
+# Warning: por to CB BFM is not connected, internal por is used.
+# 
+# Info: =================================================
+# Info:           Generic PLL Summary
+# Info: =================================================
+# Time scale of (Ethernet_10g_vlg_tst.i1.\Eth_10g_top_inst|Eth_10g_mac_inst|Eth_10gbaser_phy_inst|eth_10gbaser_phy_inst|xv_xcvr_10gbaser_nr_inst|ch[0].sv_xcvr_10gbaser_native_inst|g_fpll.altera_pll_156M~FRACTIONAL_PLL .<protected>.<protected>.<protected>.inst_pll_phase_0.no_need_to_gen) is  1ps /  1ps
+# Info: hierarchical_name = Ethernet_10g_vlg_tst.i1.\Eth_10g_top_inst|Eth_10g_mac_inst|Eth_10gbaser_phy_inst|eth_10gbaser_phy_inst|xv_xcvr_10gbaser_nr_inst|ch[0].sv_xcvr_10gbaser_native_inst|g_fpll.altera_pll_156M~FRACTIONAL_PLL .<protected>.<protected>.<protected>.inst_pll_phase_0.no_need_to_gen
+# Info: reference_clock_frequency = 644.53125 mhz
+# Info: output_clock_frequency = 312.5 mhz
+# Info: phase_shift = 0 ps
+# Info: duty_cycle = 50
+# Info: sim_additional_refclk_cycles_to_lock = 0
+# Info: output_clock_high_period = 1600.000000
+# Info: output_clock_low_period = 1600.000000
+# Info: =================================================
+# Info:           Generic PLL Summary
+# Info: =================================================
+# Time scale of (Ethernet_10g_vlg_tst.i1.\Eth_10g_top_inst|Eth_10g_mac_inst|Eth_10gbaser_phy_inst|eth_10gbaser_phy_inst|xv_xcvr_10gbaser_nr_inst|ch[0].sv_xcvr_10gbaser_native_inst|g_fpll.altera_pll_156M~FRACTIONAL_PLL .<protected>.<protected>.<protected>.inst_pll_phase_1.no_need_to_gen) is  1ps /  1ps
+# Info: hierarchical_name = Ethernet_10g_vlg_tst.i1.\Eth_10g_top_inst|Eth_10g_mac_inst|Eth_10gbaser_phy_inst|eth_10gbaser_phy_inst|xv_xcvr_10gbaser_nr_inst|ch[0].sv_xcvr_10gbaser_native_inst|g_fpll.altera_pll_156M~FRACTIONAL_PLL .<protected>.<protected>.<protected>.inst_pll_phase_1.no_need_to_gen
+# Info: reference_clock_frequency = 644.53125 mhz
+# Info: output_clock_frequency = 312.5 mhz
+# Info: phase_shift = 399 ps
+# Info: duty_cycle = 50
+# Info: sim_additional_refclk_cycles_to_lock = 0
+# Info: output_clock_high_period = 1600.000000
+# Info: output_clock_low_period = 1600.000000
+# Info: =================================================
+# Info:           Generic PLL Summary
+# Info: =================================================
+# Time scale of (Ethernet_10g_vlg_tst.i1.\Eth_10g_top_inst|Eth_10g_mac_inst|Eth_10gbaser_phy_inst|eth_10gbaser_phy_inst|xv_xcvr_10gbaser_nr_inst|ch[0].sv_xcvr_10gbaser_native_inst|g_fpll.altera_pll_156M~FRACTIONAL_PLL .<protected>.<protected>.<protected>.inst_pll_phase_2.no_need_to_gen) is  1ps /  1ps
+# Info: hierarchical_name = Ethernet_10g_vlg_tst.i1.\Eth_10g_top_inst|Eth_10g_mac_inst|Eth_10gbaser_phy_inst|eth_10gbaser_phy_inst|xv_xcvr_10gbaser_nr_inst|ch[0].sv_xcvr_10gbaser_native_inst|g_fpll.altera_pll_156M~FRACTIONAL_PLL .<protected>.<protected>.<protected>.inst_pll_phase_2.no_need_to_gen
+# Info: reference_clock_frequency = 644.53125 mhz
+# Info: output_clock_frequency = 312.5 mhz
+# Info: phase_shift = 798 ps
+# Info: duty_cycle = 50
+# Info: sim_additional_refclk_cycles_to_lock = 0
+# Info: output_clock_high_period = 1600.000000
+# Info: output_clock_low_period = 1600.000000
+# Info: =================================================
+# Info:           Generic PLL Summary
+# Info: =================================================
+# Time scale of (Ethernet_10g_vlg_tst.i1.\Eth_10g_top_inst|Eth_10g_mac_inst|Eth_10gbaser_phy_inst|eth_10gbaser_phy_inst|xv_xcvr_10gbaser_nr_inst|ch[0].sv_xcvr_10gbaser_native_inst|g_fpll.altera_pll_156M~FRACTIONAL_PLL .<protected>.<protected>.<protected>.inst_pll_phase_3.no_need_to_gen) is  1ps /  1ps
+# Info: hierarchical_name = Ethernet_10g_vlg_tst.i1.\Eth_10g_top_inst|Eth_10g_mac_inst|Eth_10gbaser_phy_inst|eth_10gbaser_phy_inst|xv_xcvr_10gbaser_nr_inst|ch[0].sv_xcvr_10gbaser_native_inst|g_fpll.altera_pll_156M~FRACTIONAL_PLL .<protected>.<protected>.<protected>.inst_pll_phase_3.no_need_to_gen
+# Info: reference_clock_frequency = 644.53125 mhz
+# Info: output_clock_frequency = 312.5 mhz
+# Info: phase_shift = 1197 ps
+# Info: duty_cycle = 50
+# Info: sim_additional_refclk_cycles_to_lock = 0
+# Info: output_clock_high_period = 1600.000000
+# Info: output_clock_low_period = 1600.000000
+# 
+# Warning: por to CB BFM is not connected, internal por is used.
+# 
+# Info: =================================================
+# Info:           Generic PLL Summary
+# Info: =================================================
+# Time scale of (Ethernet_10g_vlg_tst.i1.\Eth_10g_top_inst|Eth_10g_mac_inst|Eth_10gbaser_phy_inst|eth_10gbaser_phy_inst|xv_xcvr_10gbaser_nr_inst|ch[0].sv_xcvr_10gbaser_native_inst|altera_pll_5G|pll[0].pll.cmu_pll.tx_pll .<protected>.<protected>.<protected>.no_need_to_gen) is  1ps /  1ps
+# Info: hierarchical_name = Ethernet_10g_vlg_tst.i1.\Eth_10g_top_inst|Eth_10g_mac_inst|Eth_10gbaser_phy_inst|eth_10gbaser_phy_inst|xv_xcvr_10gbaser_nr_inst|ch[0].sv_xcvr_10gbaser_native_inst|altera_pll_5G|pll[0].pll.cmu_pll.tx_pll .<protected>.<protected>.<protected>.no_need_to_gen
+# Info: reference_clock_frequency = 644.53125 mhz
+# Info: output_clock_frequency = 5156.25 mhz
+# Info: phase_shift = 0 ps
+# Info: duty_cycle = 50
+# Info: sim_additional_refclk_cycles_to_lock = 0
+# Info: output_clock_high_period = 96.969697
+# Info: output_clock_low_period = 96.969697
+# module stratixv_hssi_tx_pld_pcs_interface : simulation model silicon_rev = "reve"
+# module stratixv_hssi_10g_tx_pcs : simulation model silicon_rev = "reve"
+# 
+# ================================================
+# Module stratixv_hssi_10g_tx_pcs
+# ================================================
+# channel_number =           0
+# frmgen_sync_word_bin = 78f678f678f678f6
+# frmgen_scrm_word_bin = 2800000000000000
+# frmgen_skip_word_bin = 1e1e1e1e1e1e1e1e
+# frmgen_diag_word_bin = 6400000000000000
+# test_bus_mode = tx
+# skip_ctrl = skip_ctrl_default
+# prot_mode = teng_baser_mode
+# sup_mode = user_mode
+# ctrl_plane_bonding = individual
+# master_clk_sel = master_tx_pma_clk
+# wr_clk_sel = wr_tx_pld_clk
+# wrfifo_clken = wrfifo_clk_en
+# rdfifo_clken = rdfifo_clk_en
+# frmgen_clken = frmgen_clk_dis
+# crcgen_clken = crcgen_clk_dis
+# enc64b66b_txsm_clken = enc64b66b_txsm_clk_en
+# scrm_clken = scrm_clk_en
+# dispgen_clken = dispgen_clk_dis
+# prbs_clken = prbs_clk_dis
+# sqwgen_clken = sqwgen_clk_dis
+# gbred_clken = gbred_clk_en
+# gb_tx_idwidth = width_66
+# gb_tx_odwidth = width_40
+# txfifo_mode = phase_comp
+# txfifo_pempty =           2
+# txfifo_pfull =          23
+# txfifo_empty =           0
+# txfifo_full =          31
+# frmgen_bypass = frmgen_bypass_en
+# frmgen_pipeln = frmgen_pipeln_en
+# frmgen_mfrm_length = mfrm_user_length
+# frmgen_mfrm_length_user =           5
+# frmgen_pyld_ins = frmgen_pyld_ins_dis
+# sh_err = sh_err_dis
+# frmgen_burst = frmgen_burst_dis
+# frmgen_wordslip = frmgen_wordslip_dis
+# crcgen_bypass = crcgen_bypass_en
+# crcgen_init = crcgen_int
+# crcgen_init_user_bin = 000000000000000f
+# crcgen_inv = crcgen_inv_en
+# crcgen_err = crcgen_err_dis
+# enc_64b66b_txsm_bypass = enc_64b66b_txsm_bypass_dis
+# tx_sm_bypass = tx_sm_bypass_dis
+# tx_sm_pipeln = tx_sm_pipeln_en
+# scrm_bypass = scrm_bypass_dis
+# test_mode = test_off
+# pseudo_random = all_0
+# pseudo_seed_a = pseudo_seed_a_user_setting
+# pseudo_seed_a_user_bin = 03ffffffffffffff
+# pseudo_seed_b = pseudo_seed_b_user_setting
+# pseudo_seed_b_user_bin = 03ffffffffffffff
+# bit_reverse = bit_reverse_dis
+# scrm_seed = scram_seed_user_setting
+# scrm_seed_user_bin = 03ffffffffffffff
+# scrm_mode = async
+# dispgen_bypass = dispgen_bypass_en
+# dispgen_err = dispgen_err_dis
+# dispgen_pipeln = dispgen_pipeln_dis
+# gb_sel_mode = internal
+# sq_wave = sq_wave_4
+# bitslip_en = bitslip_dis
+# fastpath = fastpath_dis
+# distup_bypass_pipeln = distup_bypass_pipeln_dis
+# distup_master = distup_master_en
+# distdwn_bypass_pipeln = distdwn_bypass_pipeln_dis
+# distdwn_master = distdwn_master_en
+# compin_sel = compin_master
+# comp_cnt = comp_cnt_00
+# indv = indv_en
+# stretch_num_stages = zero_stage
+# stretch_en = stretch_en
+# iqtxrx_clkout_sel = iq_tx_pma_clk
+# tx_testbus_sel = crc32_gen_testbus1
+# tx_true_b2b = b2b
+# tx_scrm_width = bit64
+# pmagate_en = pmagate_dis
+# tx_polarity_inv = invert_disable
+# comp_del_sel_agg = data_agg_del0
+# distup_bypass_pipeln_agg = distup_bypass_pipeln_agg_dis
+# distdwn_bypass_pipeln_agg = distdwn_bypass_pipeln_agg_dis
+# tx_sh_location = lsb
+# tx_scrm_err = scrm_err_dis
+# avmm_group_channel_index =           0
+# use_default_base_address = true
+# user_base_address =           0
+# phcomp_rd_del = phcomp_rd_del3
+# distup_master_agg = distup_master_agg_en
+# empty_flag_type = empty_rd_side
+# data_agg_bonding = agg_individual
+# distdwn_master_agg = distdwn_master_agg_en
+# stretch_type = stretch_auto
+# compin_sel_agg = compin_agg_master
+# pempty_flag_type = pempty_rd_side
+# del_sel_frame_gen = del_sel_frame_gen_del0
+# pfull_flag_type = pfull_wr_side
+# ctrl_bit_reverse = ctrl_bit_reverse_en
+# data_bit_reverse = data_bit_reverse_dis
+# data_agg_comp = data_agg_del0
+# fifo_stop_wr = n_wr_full
+# fifo_stop_rd = n_rd_empty
+# full_flag_type = full_wr_side
+# 
+# module stratixv_hssi_pma_rx_deser : simulation model silicon_rev = "reve"
+# module stratixv_hssi_rx_pcs_pma_interface : simulation model silicon_rev = "reve"
+# module stratixv_hssi_10g_rx_pcs : simulation model silicon_rev = "reve"
+# 
+# ================================================
+# Module stratixv_hssi_10g_rx_pcs
+# ================================================
+# channel_number =           0
+# frmgen_sync_word_bin = 78f678f678f678f6
+# frmgen_scrm_word_bin = 2800000000000000
+# frmgen_skip_word_bin = 1e1e1e1e1e1e1e1e
+# frmgen_diag_word_bin = 6400000000000000
+# test_bus_mode = tx
+# skip_ctrl = skip_ctrl_default
+# avmm_group_channel_index =           0
+# use_default_base_address = true
+# user_base_address =           0
+# prot_mode = teng_baser_mode
+# sup_mode = user_mode
+# dis_signal_ok = dis_signal_ok_en
+# gb_rx_idwidth = width_40
+# gb_rx_odwidth = width_66
+# bit_reverse = bit_reverse_dis
+# gb_sel_mode = internal
+# lpbk_mode = lpbk_dis
+# test_mode = test_off
+# blksync_bypass = blksync_bypass_dis
+# blksync_pipeln = blksync_pipeln_dis
+# blksync_knum_sh_cnt_prelock = knum_sh_cnt_prelock_10g
+# blksync_knum_sh_cnt_postlock = knum_sh_cnt_postlock_10g
+# blksync_enum_invalid_sh_cnt = enum_invalid_sh_cnt_10g
+# blksync_bitslip_wait_cnt = wait_cnt_user
+# bitslip_wait_cnt_user =           1
+# blksync_bitslip_type = bitslip_comb
+# blksync_bitslip_wait_type = bitslip_cnt
+# dispchk_bypass = dispchk_bypass_en
+# dispchk_rd_level = dispchk_rd_level_int
+# dispchk_rd_level_user = 60
+# dispchk_pipeln = dispchk_pipeln_en
+# descrm_bypass = descrm_bypass_dis
+# descrm_mode = async
+# frmsync_bypass = frmsync_bypass_en
+# frmsync_pipeln = frmsync_pipeln_en
+# frmsync_mfrm_length = mfrm_user_length
+# frmsync_mfrm_length_user =        2048
+# frmsync_knum_sync = knum_sync_default
+# frmsync_enum_sync = enum_sync_default
+# frmsync_enum_scrm = enum_scrm_default
+# frmsync_flag_type = all_framing_words
+# dec_64b66b_rxsm_bypass = dec_64b66b_rxsm_bypass_dis
+# rx_sm_bypass = rx_sm_bypass_dis
+# rx_sm_pipeln = rx_sm_pipeln_en
+# rx_sm_hiber = rx_sm_hiber_en
+# ber_xus_timer_window = xus_timer_window_10g
+# ber_bit_err_total_cnt = bit_err_total_cnt_10g
+# crcchk_bypass = crcchk_bypass_en
+# crcchk_pipeln = crcchk_pipeln_en
+# crcflag_pipeln = crcflag_pipeln_en
+# crcchk_init = crcchk_int
+# crcchk_init_user_bin = 00000000ffffffff
+# crcchk_inv = crcchk_inv_en
+# force_align = force_align_dis
+# align_del = align_del_dis
+# control_del = control_del_none
+# rxfifo_mode = clk_comp_10g
+# master_clk_sel = master_rx_pma_clk
+# rd_clk_sel = rd_rx_pld_clk
+# gbexp_clken = gbexp_clk_en
+# prbs_clken = prbs_clk_dis
+# blksync_clken = blksync_clk_en
+# dispchk_clken = dispchk_clk_dis
+# descrm_clken = descrm_clk_en
+# frmsync_clken = frmsync_clk_dis
+# dec64b66b_clken = dec64b66b_clk_en
+# ber_clken = ber_clk_en
+# rand_clken = rand_clk_en
+# crcchk_clken = crcchk_clk_dis
+# wrfifo_clken = wrfifo_clk_en
+# rdfifo_clken = rdfifo_clk_en
+# rxfifo_pempty =           7
+# rxfifo_pfull =          23
+# rxfifo_full =          31
+# rxfifo_empty =           0
+# bitslip_mode = bitslip_dis
+# fast_path = fast_path_dis
+# stretch_num_stages = zero_stage
+# stretch_en = stretch_en
+# iqtxrx_clkout_sel = iq_rx_clk_out
+# rx_dfx_lpbk = dfx_lpbk_dis
+# rx_polarity_inv = invert_disable
+# rx_scrm_width = bit64
+# rx_true_b2b = b2b
+# rx_sh_location = lsb
+# rx_fifo_write_ctrl = blklock_stops
+# rx_testbus_sel = crc32_chk_testbus1
+# rx_signal_ok_sel = synchronized_ver
+# rx_prbs_mask = prbsmask128
+# ber_xus_timer_window_user = 004c4a
+# empty_flag_type = empty_rd_side
+# stretch_type = stretch_auto
+# pempty_flag_type = pempty_rd_side
+# pfull_flag_type = pfull_wr_side
+# ctrl_bit_reverse = ctrl_bit_reverse_en
+# data_bit_reverse = data_bit_reverse_dis
+# blksync_bitslip_wait_cnt_user = 1
+# fifo_stop_wr = n_wr_full
+# fifo_stop_rd = n_rd_empty
+# full_flag_type = full_wr_side
+# 
+# module stratixv_hssi_rx_pld_pcs_interface : simulation model silicon_rev = "reve"
+# module stratixv_hssi_tx_pcs_pma_interface : simulation model silicon_rev = "reve"
+# module stratixv_hssi_pma_tx_cgb : simulation model silicon_rev = "reve"
+# module stratixv_hssi_pma_tx_ser : simulation model silicon_rev = "reve"
+# module stratixv_hssi_common_pcs_pma_interface : simulation model silicon_rev = "reve"
+# module stratixv_hssi_pma_rx_buf : simulation model silicon_rev = "reve"
+# module stratixv_hssi_pma_tx_buf : simulation model silicon_rev = "reve"
+# module stratixv_hssi_common_pld_pcs_interface : simulation model silicon_rev = "reve"
+# Info: =================================================
+# Info:           Generic CDR Summary
+# Info: =================================================
+# Time scale of (Ethernet_10g_vlg_tst.i1.\Eth_10g_top_inst|Eth_10g_mac_inst|Eth_10gbaser_phy_inst|eth_10gbaser_phy_inst|xv_xcvr_10gbaser_nr_inst|ch[0].sv_xcvr_10gbaser_native_inst|native_inst|inst_sv_pma|rx_pma.sv_rx_pma_inst|rx_pmas[0].rx_pma.rx_cdr .<protected>.<protected>.<protected>) is  1ps /  1ps
+# Info: hierarchical_name = Ethernet_10g_vlg_tst.i1.\Eth_10g_top_inst|Eth_10g_mac_inst|Eth_10gbaser_phy_inst|eth_10gbaser_phy_inst|xv_xcvr_10gbaser_nr_inst|ch[0].sv_xcvr_10gbaser_native_inst|native_inst|inst_sv_pma|rx_pma.sv_rx_pma_inst|rx_pmas[0].rx_pma.rx_cdr .<protected>.<protected>.<protected>
+# Info: reference_clock_frequency = 644.53125 mhz
+# Info: output_clock_frequency = 5156.25 mhz
+# Info: =================================================
+# Info:           Generic PLL Summary
+# Info: =================================================
+# Time scale of (Ethernet_10g_vlg_tst.i1.\Eth_10g_top_inst|Eth_10g_mac_inst|Eth_10gbaser_phy_inst|eth_10gbaser_phy_inst|xv_xcvr_10gbaser_nr_inst|ch[0].sv_xcvr_10gbaser_native_inst|native_inst|inst_sv_pma|rx_pma.sv_rx_pma_inst|rx_pmas[0].rx_pma.rx_cdr .<protected>.<protected>.<protected>.inst_cdr_clk0_pcie_00.no_need_to_gen) is  1ps /  1ps
+# Info: hierarchical_name = Ethernet_10g_vlg_tst.i1.\Eth_10g_top_inst|Eth_10g_mac_inst|Eth_10gbaser_phy_inst|eth_10gbaser_phy_inst|xv_xcvr_10gbaser_nr_inst|ch[0].sv_xcvr_10gbaser_native_inst|native_inst|inst_sv_pma|rx_pma.sv_rx_pma_inst|rx_pmas[0].rx_pma.rx_cdr .<protected>.<protected>.<protected>.inst_cdr_clk0_pcie_00.no_need_to_gen
+# Info: reference_clock_frequency = 644.53125 mhz
+# Info: output_clock_frequency = 5156.25 mhz
+# Info: phase_shift = 0 ps
+# Info: duty_cycle = 50
+# Info: sim_additional_refclk_cycles_to_lock = 0
+# Info: output_clock_high_period = 96.969697
+# Info: output_clock_low_period = 96.969697
+# Info: =================================================
+# Info:           Generic PLL Summary
+# Info: =================================================
+# Time scale of (Ethernet_10g_vlg_tst.i1.\Eth_10g_top_inst|Eth_10g_mac_inst|Eth_10gbaser_phy_inst|eth_10gbaser_phy_inst|xv_xcvr_10gbaser_nr_inst|ch[0].sv_xcvr_10gbaser_native_inst|native_inst|inst_sv_pma|rx_pma.sv_rx_pma_inst|rx_pmas[0].rx_pma.rx_cdr .<protected>.<protected>.<protected>.inst_cdr_clk90_pcie_00.no_need_to_gen) is  1ps /  1ps
+# Info: hierarchical_name = Ethernet_10g_vlg_tst.i1.\Eth_10g_top_inst|Eth_10g_mac_inst|Eth_10gbaser_phy_inst|eth_10gbaser_phy_inst|xv_xcvr_10gbaser_nr_inst|ch[0].sv_xcvr_10gbaser_native_inst|native_inst|inst_sv_pma|rx_pma.sv_rx_pma_inst|rx_pmas[0].rx_pma.rx_cdr .<protected>.<protected>.<protected>.inst_cdr_clk90_pcie_00.no_need_to_gen
+# Info: reference_clock_frequency = 644.53125 mhz
+# Info: output_clock_frequency = 5156.25 mhz
+# Info: phase_shift = 48 ps
+# Info: duty_cycle = 50
+# Info: sim_additional_refclk_cycles_to_lock = 0
+# Info: output_clock_high_period = 96.969697
+# Info: output_clock_low_period = 96.969697
+# module stratixv_hssi_pma_cdr_refclk_select_mux : simulation model silicon_rev = "reve"
+# module stratixv_hssi_pma_cdr_refclk_select_mux : simulation model silicon_rev = "reve"
+# Break key hit
+# Simulation stop requested.
+# End time: 18:56:39 on Aug 29,2018, Elapsed time: 0:06:10
+# Errors: 0, Warnings: 64

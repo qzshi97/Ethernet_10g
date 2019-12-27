@@ -1,0 +1,124 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/DELL/Desktop/Ethernet/Ethernet_10g/simulation/modelsim
+v9a5//ex6E67mdcJJFlgYwT++guTs+K3JKsQ7Z1nHqBw=
+Z1 !s110 1525137683
+!i10b 0
+!s100 McSOz?O[FZj^f1ahC8BdP0
+IKNb2[fmC=<UhIeA13F@IR1
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+!i8a 32000448
+R0
+Z3 w1525137683
+8C:/Users/DELL/Desktop/Ethernet/Ethernet_10g/ipcore/Eth_10gmac/Eth_10gmac_sim/altera_eth_crc_pad_rem/mentor/altera_eth_crc_pad_rem.v
+FC:/Users/DELL/Desktop/Ethernet/Ethernet_10g/ipcore/Eth_10gmac/Eth_10gmac_sim/altera_eth_crc_pad_rem/mentor/altera_eth_crc_pad_rem.v
+Z4 L0 38
+Z5 OV;L;10.5b;63
+r1
+!s85 0
+31
+!s108 1525137682.000000
+!s107 C:/Users/DELL/Desktop/Ethernet/Ethernet_10g/ipcore/Eth_10gmac/Eth_10gmac_sim/altera_eth_crc_pad_rem/mentor/altera_eth_crc_pad_rem.v|
+!s90 -reportprogress|300|C:/Users/DELL/Desktop/Ethernet/Ethernet_10g/ipcore/Eth_10gmac/Eth_10gmac_sim/altera_eth_crc_pad_rem/mentor/altera_eth_crc_pad_rem.v|-work|rx_eth_crc_pad_rem|
+!i113 1
+Z6 o-work rx_eth_crc_pad_rem
+Z7 tCvgOpt 0
+n4a330dd
+valtera_eth_crc_pad_rem_pipeline_base
+Z8 !s110 1525137684
+!i10b 1
+!s100 ocINX5<ZGnfnhUV4C2PW11
+IR=@F03]hzOi^L7AC6oPo^0
+R2
+R0
+Z9 w1525073313
+8C:/Users/DELL/Desktop/Ethernet/Ethernet_10g/ipcore/Eth_10gmac/Eth_10gmac_sim/altera_eth_crc_pad_rem/altera_eth_crc_pad_rem_pipeline_base.v
+FC:/Users/DELL/Desktop/Ethernet/Ethernet_10g/ipcore/Eth_10gmac/Eth_10gmac_sim/altera_eth_crc_pad_rem/altera_eth_crc_pad_rem_pipeline_base.v
+Z10 L0 22
+R5
+r1
+!s85 0
+31
+Z11 !s108 1525137684.000000
+!s107 C:/Users/DELL/Desktop/Ethernet/Ethernet_10g/ipcore/Eth_10gmac/Eth_10gmac_sim/altera_eth_crc_pad_rem/altera_eth_crc_pad_rem_pipeline_base.v|
+!s90 -reportprogress|300|C:/Users/DELL/Desktop/Ethernet/Ethernet_10g/ipcore/Eth_10gmac/Eth_10gmac_sim/altera_eth_crc_pad_rem/altera_eth_crc_pad_rem_pipeline_base.v|-work|rx_eth_crc_pad_rem|
+!i113 1
+R6
+R7
+valtera_eth_crc_pad_rem_pipeline_stage
+DXx6 sv_std 3 std 0 22 AD7iAPLo6nTIKk<N0eo=D3
+R8
+!i10b 1
+!s100 oMnKL>IBbZJIiUzN`>G6a2
+ISC6YOoe3b:9zY>Z@CTM<V0
+R2
+!s105 altera_eth_crc_pad_rem_pipeline_stage_sv_unit
+S1
+R0
+R9
+8C:/Users/DELL/Desktop/Ethernet/Ethernet_10g/ipcore/Eth_10gmac/Eth_10gmac_sim/altera_eth_crc_pad_rem/altera_eth_crc_pad_rem_pipeline_stage.sv
+FC:/Users/DELL/Desktop/Ethernet/Ethernet_10g/ipcore/Eth_10gmac/Eth_10gmac_sim/altera_eth_crc_pad_rem/altera_eth_crc_pad_rem_pipeline_stage.sv
+R10
+R5
+r1
+!s85 0
+31
+R11
+!s107 C:/Users/DELL/Desktop/Ethernet/Ethernet_10g/ipcore/Eth_10gmac/Eth_10gmac_sim/altera_eth_crc_pad_rem/altera_eth_crc_pad_rem_pipeline_stage.sv|
+!s90 -reportprogress|300|-sv|C:/Users/DELL/Desktop/Ethernet/Ethernet_10g/ipcore/Eth_10gmac/Eth_10gmac_sim/altera_eth_crc_pad_rem/altera_eth_crc_pad_rem_pipeline_stage.sv|-work|rx_eth_crc_pad_rem|
+!i113 1
+o-sv -work rx_eth_crc_pad_rem
+R7
+vc1vKlqVLIMtljzhho6p9ZTygrU5fsmR1hkgzcOHK5fY=
+R1
+!i10b 0
+!s100 32JPZb15ka63K3V4=8FDP2
+I^FFb]RJ[b_K<?mei@64BG0
+R2
+!i8a 825683488
+R0
+R3
+8C:/Users/DELL/Desktop/Ethernet/Ethernet_10g/ipcore/Eth_10gmac/Eth_10gmac_sim/altera_eth_crc_pad_rem/mentor/altera_eth_crc_rem.v
+FC:/Users/DELL/Desktop/Ethernet/Ethernet_10g/ipcore/Eth_10gmac/Eth_10gmac_sim/altera_eth_crc_pad_rem/mentor/altera_eth_crc_rem.v
+R4
+R5
+r1
+!s85 0
+31
+Z12 !s108 1525137683.000000
+!s107 C:/Users/DELL/Desktop/Ethernet/Ethernet_10g/ipcore/Eth_10gmac/Eth_10gmac_sim/altera_eth_crc_pad_rem/mentor/altera_eth_crc_rem.v|
+!s90 -reportprogress|300|C:/Users/DELL/Desktop/Ethernet/Ethernet_10g/ipcore/Eth_10gmac/Eth_10gmac_sim/altera_eth_crc_pad_rem/mentor/altera_eth_crc_rem.v|-work|rx_eth_crc_pad_rem|
+!i113 1
+R6
+R7
+nb586a6d
+v6MygaNPiTSWo/Bjf0DcxfybPiyIJAqCVWvUen4DB9wU=
+R1
+!i10b 0
+!s100 SbK>Y9ZUSKC:TT:44ShWL2
+Ih;YIET@fIHMV<nfUk]`763
+R2
+!i8a 1746307856
+R0
+R3
+8C:/Users/DELL/Desktop/Ethernet/Ethernet_10g/ipcore/Eth_10gmac/Eth_10gmac_sim/altera_eth_crc_pad_rem/mentor/altera_packet_stripper.v
+FC:/Users/DELL/Desktop/Ethernet/Ethernet_10g/ipcore/Eth_10gmac/Eth_10gmac_sim/altera_eth_crc_pad_rem/mentor/altera_packet_stripper.v
+R4
+R5
+r1
+!s85 0
+31
+R12
+!s107 C:/Users/DELL/Desktop/Ethernet/Ethernet_10g/ipcore/Eth_10gmac/Eth_10gmac_sim/altera_eth_crc_pad_rem/mentor/altera_packet_stripper.v|
+!s90 -reportprogress|300|C:/Users/DELL/Desktop/Ethernet/Ethernet_10g/ipcore/Eth_10gmac/Eth_10gmac_sim/altera_eth_crc_pad_rem/mentor/altera_packet_stripper.v|-work|rx_eth_crc_pad_rem|
+!i113 1
+R6
+R7
+nd2df5b2

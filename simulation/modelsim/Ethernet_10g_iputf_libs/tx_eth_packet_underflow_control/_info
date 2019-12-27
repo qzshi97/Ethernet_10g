@@ -1,0 +1,33 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/DELL/Desktop/Ethernet/Ethernet_10g/simulation/modelsim
+v1msyiCbUteSCpVWDll3T0MAWLe+G0c+54KavQxAz5SbOOYACstbuKoQ48ooWdkSD
+!s110 1525137699
+!i10b 0
+!s100 b9TDQJil`kMZ_8aUaX:[P3
+I9eL<J<l>RlHJGcTILhg`i2
+VDg1SIo80bB@j0V0VzS_@n1
+!i8a 2119610848
+R0
+w1525137699
+8C:/Users/DELL/Desktop/Ethernet/Ethernet_10g/ipcore/Eth_10gmac/Eth_10gmac_sim/altera_eth_packet_underflow_control/mentor/altera_eth_packet_underflow_control.v
+FC:/Users/DELL/Desktop/Ethernet/Ethernet_10g/ipcore/Eth_10gmac/Eth_10gmac_sim/altera_eth_packet_underflow_control/mentor/altera_eth_packet_underflow_control.v
+L0 38
+OV;L;10.5b;63
+r1
+!s85 0
+31
+!s108 1525137699.000000
+!s107 C:/Users/DELL/Desktop/Ethernet/Ethernet_10g/ipcore/Eth_10gmac/Eth_10gmac_sim/altera_eth_packet_underflow_control/mentor/altera_eth_packet_underflow_control.v|
+!s90 -reportprogress|300|C:/Users/DELL/Desktop/Ethernet/Ethernet_10g/ipcore/Eth_10gmac/Eth_10gmac_sim/altera_eth_packet_underflow_control/mentor/altera_eth_packet_underflow_control.v|-work|tx_eth_packet_underflow_control|
+!i113 1
+o-work tx_eth_packet_underflow_control
+tCvgOpt 0
+nac4e12c

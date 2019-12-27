@@ -1,0 +1,33 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/DELL/Desktop/Ethernet/Ethernet_10g/simulation/modelsim
+v4OoFobfc2AvCSKtnZ+gVH2fMyiOb2R3+0jtdQ8Spwwo=
+!s110 1525137684
+!i10b 0
+!s100 <b@^0cfS[[HVAgK6^KfW]0
+IOIc;V9Tf_LDj1kROb@;5z2
+VDg1SIo80bB@j0V0VzS_@n1
+!i8a 363189232
+R0
+w1525137684
+8C:/Users/DELL/Desktop/Ethernet/Ethernet_10g/ipcore/Eth_10gmac/Eth_10gmac_sim/altera_eth_frame_status_merger/mentor/altera_eth_frame_status_merger.v
+FC:/Users/DELL/Desktop/Ethernet/Ethernet_10g/ipcore/Eth_10gmac/Eth_10gmac_sim/altera_eth_frame_status_merger/mentor/altera_eth_frame_status_merger.v
+L0 38
+OV;L;10.5b;63
+r1
+!s85 0
+31
+!s108 1525137684.000000
+!s107 C:/Users/DELL/Desktop/Ethernet/Ethernet_10g/ipcore/Eth_10gmac/Eth_10gmac_sim/altera_eth_frame_status_merger/mentor/altera_eth_frame_status_merger.v|
+!s90 -reportprogress|300|C:/Users/DELL/Desktop/Ethernet/Ethernet_10g/ipcore/Eth_10gmac/Eth_10gmac_sim/altera_eth_frame_status_merger/mentor/altera_eth_frame_status_merger.v|-work|rx_eth_frame_status_merger|
+!i113 1
+o-work rx_eth_frame_status_merger
+tCvgOpt 0
+n4cd0882

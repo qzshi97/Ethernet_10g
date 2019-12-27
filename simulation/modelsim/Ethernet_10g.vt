@@ -1,0 +1,96 @@
+// Copyright (C) 2017  Intel Corporation. All rights reserved.
+// Your use of Intel Corporation's design tools, logic functions 
+// and other software and tools, and its AMPP partner logic 
+// functions, and any output files from any of the foregoing 
+// (including device programming or simulation files), and any 
+// associated documentation or information are expressly subject 
+// to the terms and conditions of the Intel Program License 
+// Subscription Agreement, the Intel Quartus Prime License Agreement,
+// the Intel FPGA IP License Agreement, or other applicable license
+// agreement, including, without limitation, that your use is for
+// the sole purpose of programming logic devices manufactured by
+// Intel and sold by Intel or its authorized distributors.  Please
+// refer to the applicable agreement for further details.
+
+// *****************************************************************************
+// This file contains a Verilog test bench template that is freely editable to  
+// suit user's needs .Comments are provided in each section to help the user    
+// fill out necessary details.                                                  
+// *****************************************************************************
+// Generated on "05/02/2018 22:56:46"
+                                                                                
+// Verilog Test Bench template for design : Ethernet_10g
+// 
+// Simulation tool : ModelSim-Altera (Verilog)
+// 
+
+`timescale 1 ns/ 1 ps
+module Ethernet_10g_vlg_tst();
+
+reg OSC_50_B3B;
+reg pll_ref_clk_sig;
+reg reset;
+reg rx_serial_data_0_sig;
+// wires                                               
+wire LMK04906_CLK;
+wire LMK04906_DATAIN;
+wire LMK04906_LE;
+wire sample_clk;
+wire tx_serial_data_0_sig;
+
+wire[65:0]test;
+wire[63:0] wr_data;										//写入fifo的数据
+wire wr_req;                             //fifo写请求
+
+//wire wrfull;
+//wire rdempty;
+//wire rdreq;
+// assign statements (if any)                          
+Ethernet_10g i1 (
+// port map - connection between master ports and signals/registers   
+	.LMK04906_CLK(LMK04906_CLK),
+	.LMK04906_DATAIN(LMK04906_DATAIN),
+	.LMK04906_LE(LMK04906_LE),
+	
+//	.wrfull(wrfull),
+//	.rdempty(rdempty),
+//	.rdreq(rdreq),
+	
+	.test(test),
+	
+	.wr_data(wr_data),															// output reg[63:0]		//写入fifo的数据
+	.wr_req(wr_req),                             						// output reg				//fifo写请求
+	
+	.OSC_50_B3B(OSC_50_B3B),
+	.pll_ref_clk_sig(pll_ref_clk_sig),
+	.reset(reset),
+	.rx_serial_data_0_sig(tx_serial_data_0_sig),
+	.sample_clk(sample_clk),
+	.tx_serial_data_0_sig(tx_serial_data_0_sig)
+);
+
+
+initial begin
+	pll_ref_clk_sig <= 1'b0;
+	forever
+		#0.776 pll_ref_clk_sig <= ~pll_ref_clk_sig;
+end
+
+initial begin
+	OSC_50_B3B <= 1'b0;
+	forever
+		#10 OSC_50_B3B <= ~OSC_50_B3B;
+end
+
+initial begin
+	reset <= 1'b1;
+	#100;
+	reset <= 1'b0;
+	
+	#1000000000;
+	
+	$stop;
+end
+
+endmodule
+
